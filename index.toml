@@ -852,6 +852,11 @@ hash = "3f14f50297e873a50e226bf701c9d700b4bb1212bd144356585ea73613d3d6aa"
 metafile = true
 
 [[files]]
+file = "mods/squat-grow.pw.toml"
+hash = "6514d9db32d069dcc96b04075e2514d9dd1c63702424843b00336dc392c1630d"
+metafile = true
+
+[[files]]
 file = "mods/stack-refill.pw.toml"
 hash = "00da2960ca396b98aee61d0b3b73bff01ed2ae22569df718f5f1028a04819bf6"
 metafile = true
