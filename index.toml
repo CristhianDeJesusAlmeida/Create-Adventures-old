@@ -272,6 +272,11 @@ hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+hash = "34cb9102708e368a116c6b11e98728e0c4b471a6afdf7ce9602f93cb75174509"
+metafile = true
+
+[[files]]
 file = "mods/colorwheel-patcher.pw.toml"
 hash = "4416c1911dac506eed6162e8b66c966baec9bbb1e38ee9bc8570eac797d405f3"
 metafile = true
@@ -844,6 +849,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "3f14f50297e873a50e226bf701c9d700b4bb1212bd144356585ea73613d3d6aa"
+metafile = true
+
+[[files]]
+file = "mods/stack-refill.pw.toml"
+hash = "00da2960ca396b98aee61d0b3b73bff01ed2ae22569df718f5f1028a04819bf6"
 metafile = true
 
 [[files]]
