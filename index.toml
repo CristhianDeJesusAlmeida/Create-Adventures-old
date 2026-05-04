@@ -472,6 +472,11 @@ hash = "c32f7ea017903787d7b82d732c3ee3a7f67eceeaa72d70827e0c297b3b8bdfc9"
 metafile = true
 
 [[files]]
+file = "mods/endertanks.pw.toml"
+hash = "16bc3e487696dfd1498036ecee063c3271a111b56787126b93617b2dbbf0d443"
+metafile = true
+
+[[files]]
 file = "mods/epherolib.pw.toml"
 hash = "bb3972a97a3915f202ce571fc7b943b2055119a0d70404424505e4dbc811958c"
 metafile = true
@@ -814,6 +819,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
+metafile = true
+
+[[files]]
+file = "mods/shetiphiancore.pw.toml"
+hash = "51c7fbbf6e1d09a29ad010ae0a9f11e966030b013e6d543965e74b7f5f78b339"
 metafile = true
 
 [[files]]
