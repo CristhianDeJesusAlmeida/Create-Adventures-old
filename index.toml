@@ -26,7 +26,7 @@ hash = "81c2cd39e35b59026b323b39fe628eb9a98fc2472784f7a27b6e52dd6816e0c1"
 
 [[files]]
 file = "kubejs/server_scripts/create_wrench.js"
-hash = "2858df32dd132b2011bf2afeff9b48d9738db558570520caf23c9d27594e2c18"
+hash = "4e42f933ff2058e80d389fa1b4eeb6180aff4417454cea9477cdf426432529ec"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_add.js"
@@ -887,6 +887,16 @@ hash = "1d277d4c4d8f3abc49176d3b029584b70d92dcb9b89cf2cf6094e674fe9885c8"
 metafile = true
 
 [[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "3c08d6331ca871abdfa7a185011d2a6349a1125cc6b2cf87f9c89ca4043dbe70"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "fa0e1562f9dc89d6428546c7388dcfce8706843333d58f16cadce42b56b81085"
 metafile = true
@@ -909,6 +919,11 @@ metafile = true
 [[files]]
 file = "mods/trade-cycling.pw.toml"
 hash = "4c00caba57fa2aa18ebf941fbe897ab444252f6baf816f5d1fea9430ac5b3779"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
+hash = "a43bccc1cdad8e0ce5167f379c98935f7ea8117ac0bda2218b372defbc9fc985"
 metafile = true
 
 [[files]]
