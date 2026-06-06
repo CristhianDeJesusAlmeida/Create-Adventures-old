@@ -501,6 +501,11 @@ hash = "276a01bd8812a9bd3619952524c976829e4fc93c2824e0af963cdfa2c407b331"
 metafile = true
 
 [[files]]
+file = "mods/expanded-combat.pw.toml"
+hash = "a3971304dd3009726da723669265e434dcfc588a0ccbdb4a4bbecdf80692e6c6"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "0670ca65c7208aa8211883fae30c935f53cad38196aac46723b10e7bbc695113"
 metafile = true
