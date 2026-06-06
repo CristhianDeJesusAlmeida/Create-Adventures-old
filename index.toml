@@ -38,7 +38,7 @@ hash = "69fb9efd6e72c14c4846c08fb838b762de3f92fac947d7cac9d610eee450eca6"
 
 [[files]]
 file = "kubejs/startup_scripts/stack.js"
-hash = "d99c704b39c36c18f4e1d02aa93de8069eab5403df5e67e7b4816bd628663a90"
+hash = "5097ab238af30b53962b58a9808b57e6a2c1298007942cf1660d325c08a2ef96"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
@@ -233,11 +233,6 @@ metafile = true
 [[files]]
 file = "mods/bobby-reneoforged.pw.toml"
 hash = "bed272fc78f03f679e3efb597ac5a70659856ef44118bbb6c24651045f38f10e"
-metafile = true
-
-[[files]]
-file = "mods/bossesrise.pw.toml"
-hash = "b0a66fb924438387fec0c230b16c52513d1abccbfcc3e90f41a44fb9b4de3015"
 metafile = true
 
 [[files]]
@@ -503,11 +498,6 @@ metafile = true
 [[files]]
 file = "mods/epic-knights-shields-armor-and-weapons.pw.toml"
 hash = "276a01bd8812a9bd3619952524c976829e4fc93c2824e0af963cdfa2c407b331"
-metafile = true
-
-[[files]]
-file = "mods/expanded-combat.pw.toml"
-hash = "a3971304dd3009726da723669265e434dcfc588a0ccbdb4a4bbecdf80692e6c6"
 metafile = true
 
 [[files]]
