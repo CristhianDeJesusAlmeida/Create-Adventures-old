@@ -5,12 +5,7 @@ ItemEvents.modification(event => {
         'minecraft:egg',
         'minecraft:snowball',
         'minecraft:honey_bottle',
-        'minecraft:bucket',
-        'minecraft:blue_egg',
-        'minecraft:brown_egg',
-        'mynethersdelight:strider_rock',
-        'mynethersdelight:strider_egg'
-
+        'minecraft:bucket'
     ]
 
     itemsToStack.forEach(itemID => {
