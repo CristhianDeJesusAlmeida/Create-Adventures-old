@@ -26,7 +26,7 @@ hash = "81c2cd39e35b59026b323b39fe628eb9a98fc2472784f7a27b6e52dd6816e0c1"
 
 [[files]]
 file = "kubejs/server_scripts/create_wrench.js"
-hash = "4e42f933ff2058e80d389fa1b4eeb6180aff4417454cea9477cdf426432529ec"
+hash = "28c7ea20afe781150c1a3e6f642d513258eb0ac3a014d6e11992cdfbc8c9c4a3"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_add.js"
@@ -35,6 +35,10 @@ hash = "1443b7b30b1fe8efbe5aa47ad9e8b9489a9d08b99603fddb269ddab608de64c4"
 [[files]]
 file = "kubejs/server_scripts/recipes_remove.js"
 hash = "69fb9efd6e72c14c4846c08fb838b762de3f92fac947d7cac9d610eee450eca6"
+
+[[files]]
+file = "kubejs/startup_scripts/stack.js"
+hash = "d99c704b39c36c18f4e1d02aa93de8069eab5403df5e67e7b4816bd628663a90"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
@@ -227,6 +231,11 @@ hash = "a5122c5ecc0e36da4f60474cc8ecaff590aaeae8be545ffddfe2c25db89816e7"
 metafile = true
 
 [[files]]
+file = "mods/bobby-reneoforged.pw.toml"
+hash = "bed272fc78f03f679e3efb597ac5a70659856ef44118bbb6c24651045f38f10e"
+metafile = true
+
+[[files]]
 file = "mods/bossesrise.pw.toml"
 hash = "b0a66fb924438387fec0c230b16c52513d1abccbfcc3e90f41a44fb9b4de3015"
 metafile = true
@@ -268,7 +277,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
