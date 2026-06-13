@@ -191,6 +191,11 @@ hash = "90b81c1bd8c7c60e5389a41616bc0c6f738d3fcef80c8857e80c17652f414a06"
 metafile = true
 
 [[files]]
+file = "mods/backpacked.pw.toml"
+hash = "e0a479fef621fd91d0a022358046eb6af947fd5d4191b1286504f6b958605686"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "dd56ff2bcc4253d1d70c08333632743fb56cdc4cf5518dc6afc024164633145d"
 metafile = true
@@ -526,6 +531,11 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
+file = "mods/framework.pw.toml"
+hash = "dd0153bc05a3ffc8592dfaf35b4e8014127e6e1b352d7c18462d49a1ed7a5035"
+metafile = true
+
+[[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
 hash = "100d56915243e9a577ec572cc118628e3bef2f1e7be015585335d307dbb5dc19"
 metafile = true
@@ -848,21 +858,6 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-backpacks.pw.toml"
-hash = "b8ddcc63037e82526d05edcaa5a7d5e8a4f5299b7b98940a487484ffabbe663f"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-core.pw.toml"
-hash = "6f99d4010971a7adcb59ad99b34a9bdbbd3d0f5da438926dd2a1323897fb001d"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-storage.pw.toml"
-hash = "3f14f50297e873a50e226bf701c9d700b4bb1212bd144356585ea73613d3d6aa"
 metafile = true
 
 [[files]]
