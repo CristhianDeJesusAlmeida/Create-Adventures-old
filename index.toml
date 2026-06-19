@@ -901,6 +901,11 @@ hash = "1ee074cf798187e07f45c8f54ddebd53ca4c237773e8a9f394656bf661c10141"
 metafile = true
 
 [[files]]
+file = "mods/structurify.pw.toml"
+hash = "b18e1a0b57b9f02ce56993b9f2d1dc3571ca79dfb496daf48c7537b28fa224a4"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "663305191dad72d9fb9bee97e36bcdc4ab41b2f98dedb8b628464f5d1cee3db0"
 metafile = true
@@ -988,6 +993,11 @@ metafile = true
 [[files]]
 file = "mods/vanilla-loot-addon-for-loot-integrations.pw.toml"
 hash = "e9c21b8175842b3b92341c5001416fc04e3e400c7482eceb01664c52cfb0f498"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "492daa3391b6079b541685db276007b286774bab3b9881505127b7aef6b3f16c"
 metafile = true
 
 [[files]]
