@@ -1,8 +1,8 @@
 ServerEvents.recipes(event => {
 
-    // ==========================================
+    // =========================================================================
     // ⚙️ 1. PROGRESSÃO DE MACHINE CORES (ORITECH)
-    // ==========================================
+    // =========================================================================
 
     // TIER 2: Basic Machine Core
     event.shaped('oritech:machine_core_2', [
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
     });
 
     // TIER 5: Elite Machine Core
-    // CORRIGIDO: ID ajustado para 'oritech:basic_battery' conforme você identificou!
+    // CORRIGIDO: Substituído o ID inexistente small_battery por oritech:basic_battery
     event.shaped('oritech:machine_core_5', [
         'RCR',
         'CMC',
@@ -72,9 +72,9 @@ ServerEvents.recipes(event => {
     });
 
 
-    // ==========================================
+    // =========================================================================
     // 🔮 2. PROGRESSÃO E MAGIA (TENSURA)
-    // ==========================================
+    // =========================================================================
     event.shaped('kubejs:dragon_infused_core', [
         'CDC',
         'DMD',
@@ -86,21 +86,25 @@ ServerEvents.recipes(event => {
     });
 
 
-    // ==========================================
+    // =========================================================================
     // ⚔️ 3. ESTEIRAS INDUSTRIAIS (CREATE)
-    // ==========================================
+    // =========================================================================
     event.recipes.create.pressing('kubejs:cataclysmic_mechanism', 'create:iron_sheet');
 
 
     // =========================================================================
     // 💾 4. ENGENHARIA DIGITAL (APPLIED ENERGISTICS 2)
     // =========================================================================
-    // CORREÇÃO: Sintaxe oficial da API do AE2 para alinhar Moldes (Top/Bottom) e o Item do meio (Middle)
-    event.recipes.ae2.inscriber(
-        'kubejs:kinetic_flux_matrix',             // ITEM DE SAÍDA (O seu item customizado!)
-        'ae2:printed_engineering_processor',       // ITEM CENTRAL (Slot do meio)
-        'ae2:engineering_processor_press',         // MOLDE SUPERIOR (Slot de cima)
-        'ae2:silicon_press'                        // MOLDE INFERIOR (Slot de baixo - mude se quiser colocar outra prensa)
-    );
+    // CORRIGIDO: Chave de resultado alterada de "item" para "id" para o interpretador do AE2 aceitar na 1.21.1
+    event.custom({
+        type: "ae2:inscriber",
+        mode: "inscribe",
+        ingredients: {
+            top: { item: "ae2:engineering_processor_press" },
+            middle: { item: "ae2:printed_engineering_processor" },
+            bottom: { item: "ae2:silicon_press" }
+        },
+        result: { id: "kubejs:kinetic_flux_matrix" }
+    });
 
 });
