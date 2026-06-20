@@ -46,7 +46,7 @@ hash = "28c7ea20afe781150c1a3e6f642d513258eb0ac3a014d6e11992cdfbc8c9c4a3"
 
 [[files]]
 file = "kubejs/server_scripts/custom_progression.js"
-hash = "5a6d7b4dd9e8b953f7644e81d54a5ecb778d7876636b591642756acb6c17ab4d"
+hash = "7e9eb4f820380f1a39cc6bf7eebac3abf299b87cfefdd5316845649ca535664f"
 
 [[files]]
 file = "kubejs/server_scripts/loot_balance.js"
@@ -745,7 +745,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-hash = "9b32e1374a3d85ccdd4803c8932f72fbeb6357e69d895980e3f24e1974a07ca6"
+hash = "e42581d8eb65aa947dcbe6edb71b2082e84f31936b01f131758395d88dabc919"
 metafile = true
 
 [[files]]
