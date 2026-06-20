@@ -1,25 +1,21 @@
 ServerEvents.recipes(event => {
 
-    // =========================================================================
-    // ⚙️ 1. TECNOLOGIA AUTOMATIZADA (ORITECH PROGRESSION)
-    // =========================================================================
-    // EVOLUÇÃO: O jogador pega o Core Primitivo (1) e usa seu Núcleo do Dragão para transformá-lo no Core Básico (2)
+    // ==========================================
+    // ⚙️ 1. PROGRESSÃO DE MACHINE CORES (ORITECH)
+    // ==========================================
+
+    // TIER 2: Basic Machine Core
     event.shaped('oritech:machine_core_2', [
         'AAA',
         'CBC',
         'AAA'
     ], {
         A: 'minecraft:iron_ingot',
-        B: 'oritech:machine_core_1',         // Primitive Machine Core como base!
-        C: 'kubejs:dragon_infused_core'     // O seu item customizado místico!
+        B: 'oritech:machine_core_1',
+        C: 'kubejs:dragon_infused_core'     
     });
 
-        // =========================================================================
-    // ⚙️ PROGRESSÃO INDUSTRIAL: ESCADA DE MACHINE CORES (ORITECH)
-    // =========================================================================
-
     // TIER 3: Improved Machine Core
-    // Base: Machine Core 2 + Latão do Create
     event.shaped('oritech:machine_core_3', [
         'CBC',
         'BMB',
@@ -27,61 +23,58 @@ ServerEvents.recipes(event => {
     ], {
         C: 'create:brass_ingot',
         B: 'create:brass_sheet',
-        M: 'oritech:machine_core_2' // Exige o Core 2!
+        M: 'oritech:machine_core_2'
     });
 
     // TIER 4: Advanced Machine Core
-    // Base: Machine Core 3 + Matriz de Fluxo Cinético do AE2 que você criou
     event.shaped('oritech:machine_core_4', [
         'ECE',
         'CMC',
         'ECE'
     ], {
         E: 'create:electron_tube',
-        C: 'kubejs:kinetic_flux_matrix', // Seu item místico da prensa!
-        M: 'oritech:machine_core_3'      // Exige o Core 3!
+        C: 'kubejs:kinetic_flux_matrix',
+        M: 'oritech:machine_core_3'
     });
 
     // TIER 5: Elite Machine Core
-    // Base: Machine Core 4 + Itens Avançados do Oritech
+    // CORRIGIDO: ID ajustado para 'oritech:basic_battery' conforme você identificou!
     event.shaped('oritech:machine_core_5', [
         'RCR',
         'CMC',
         'RCR'
     ], {
-        R: 'oritech:small_battery',     // Exemplo de item técnico do Oritech
+        R: 'oritech:basic_battery',
         C: 'oritech:nickel_ingot',
-        M: 'oritech:machine_core_4'     // Exige o Core 4!
+        M: 'oritech:machine_core_4'
     });
 
     // TIER 6: Ultra Machine Core
-    // Base: Machine Core 5 + Mecanismo Cataclísmico das esteiras
     event.shaped('oritech:machine_core_6', [
         'ECE',
         'CMC',
         'ECE'
     ], {
         E: 'oritech:biosteel_ingot',
-        C: 'kubejs:cataclysmic_mechanism', // Seu item industrial pesado!
-        M: 'oritech:machine_core_5'         // Exige o Core 5!
+        C: 'kubejs:cataclysmic_mechanism',
+        M: 'oritech:machine_core_5'
     });
 
-    // TIER 7: Ultimate Machine Core (O FIM DA JORNADA)
-    // Base: Machine Core 6 + O ápice do poder do Tensura e da Engenharia
+    // TIER 7: Ultimate Machine Core
     event.shaped('oritech:machine_core_7', [
         'DND',
         'NMN',
         'DND'
     ], {
         D: 'minecraft:netherite_ingot',
-        N: 'kubejs:dragon_infused_core',  // Seu item lendário de Magícula!
-        M: 'oritech:machine_core_6'       // Exige o Core 6!
+        N: 'kubejs:dragon_infused_core',
+        M: 'oritech:machine_core_6'
     });
 
-    // =========================================================================
+
+    // ==========================================
     // 🔮 2. PROGRESSÃO E MAGIA (TENSURA)
-    // =========================================================================
-    // Cria o seu Núcleo do Dragão usando a Garrafa Mágica corrigida
+    // ==========================================
     event.shaped('kubejs:dragon_infused_core', [
         'CDC',
         'DMD',
@@ -93,23 +86,25 @@ ServerEvents.recipes(event => {
     });
 
 
-    // =========================================================================
-    // ⚔️ 3. ESTEIRAS INDUSTRIAIS (CREATE NATAL 1.21.1)
-    // =========================================================================
-    // Pressiona o Mecanismo de Precisão com a Chapa de Ferro correta do Create
+    // ==========================================
+    // ⚔️ 3. ESTEIRAS INDUSTRIAIS (CREATE)
+    // ==========================================
     event.recipes.create.pressing('kubejs:cataclysmic_mechanism', 'create:iron_sheet');
 
 
-   // CORRIGIDO: Injeta a receita via JSON direto para mapear os slots físicos do Inscriber sem erros
+    // ==========================================
+    // 💾 4. ENGENHARIA DIGITAL (APPLIED ENERGISTICS 2)
+    // ==========================================
+    // CORRIGIDO: Formato de saída do JSON mapeado estritamente com a chave "id" aceita pelo AE2 na 1.21.1
     event.custom({
         type: "ae2:inscriber",
         mode: "inscribe",
         ingredients: {
-            top: { item: "ae2:engineering_processor_press" },       // MOLDE SUPERIOR
-            middle: { item: "ae2:printed_engineering_processor" },   // ITEM CENTRAL
-            bottom: { item: "ae2:silicon_press" }                    // MOLDE INFERIOR
+            top: { item: "ae2:engineering_processor_press" },
+            middle: { item: "ae2:printed_engineering_processor" },
+            bottom: { item: "ae2:silicon_press" }
         },
-        result: { item: "kubejs:kinetic_flux_matrix" }               // SEU ITEM CUSTOMIZADO DE SAÍDA!
+        result: { id: "kubejs:kinetic_flux_matrix" }
     });
 
 });
