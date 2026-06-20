@@ -9,18 +9,6 @@ file = "config/ftbquest/index.snbt"
 hash = "7895a8cd4d22ff2e365c80f94ac7089a8616960af35859d7656c483399c51bd5"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/cataclysmic_mechanism.png"
-hash = "eebc9dc96bc74316732408a5734ef2343f713886ed53e6e5e86e2241c8898886"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/dragon_infused_core.png"
-hash = "b72c8569bce275cf455505b093e87c82cc1e2791f248cec97e1f29a78a5550be"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/kinetic_flux_matrix.png"
-hash = "af1d0d348141095223a7b9bc908f0cf3018465057753b1f18d0ef5523e49b40a"
-
-[[files]]
 file = "kubejs/client_scripts/main.js"
 hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
