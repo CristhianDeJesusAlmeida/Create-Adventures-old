@@ -1,0 +1,5 @@
+# Força o Git a manter as quebras de linha originais e impede conversões automáticas
+*.js text eol=crlf
+*.json text eol=crlf
+*.txt text eol=crlf
+*.toml text eol=crlf
