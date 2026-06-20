@@ -1,21 +1,23 @@
 ServerEvents.recipes(event => {
 
-    // =========================================================================
-    // ⚙️ CATEGORIA: MÁQUINAS E ESTRUTURAS (ORITECH)
-    // =========================================================================
-    event.shaped('oritech:machine_frame_basic', [
+    // ==========================================
+    // ⚙️ 1. MÁQUINAS E ESTRUTURAS (ORITECH)
+    // ==========================================
+    // ID: oritech:basic_machine_frame
+    event.shaped('oritech:basic_machine_frame', [
         'AAA',
         'ABA',
         'AAA'
     ], {
         A: 'minecraft:iron_ingot',
         B: 'kubejs:dragon_infused_core'
-    })
+    });
 
 
-    // =========================================================================
-    // 🔮 CATEGORIA: PROGRESSÃO E MAGIA (TENSURA)
-    // =========================================================================
+    // ==========================================
+    // 🔮 2. PROGRESSÃO E MAGIA (TENSURA)
+    // ==========================================
+    // ID: tensura:magic_bottle
     event.shaped('kubejs:dragon_infused_core', [
         'CDC',
         'DMD',
@@ -23,33 +25,21 @@ ServerEvents.recipes(event => {
     ], {
         C: 'create:brass_ingot',
         D: 'minecraft:diamond',
-        M: 'tensura:magicule_fluid_bottle' 
-    })
+        M: 'tensura:magic_bottle' 
+    });
 
 
-    // =========================================================================
-    // ⚔️ CATEGORIA: SERRALHERIA E COMBATE (EPIC KNIGHTS / CREATE)
-    // =========================================================================
-    event.recipes.create.sequenced_assembly([
-        'kubejs:cataclysmic_mechanism'
-    ], 'create:precision_mechanism', [
-        event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:steel_sheet']),
-        event.recipes.createPressing('create:incomplete_precision_mechanism', 'create:incomplete_precision_mechanism')
-    ]).transitionalItem('create:incomplete_precision_mechanism').loops(3)
+    // ==========================================
+    // ⚔️ 3. ESTEIRAS INDUSTRIAIS (CREATE 1.21.1)
+    // ==========================================
+    // CORRIGIDO: Chapa de aço substituída pelo ID correto do Create nativo: 'create:iron_sheet'
+    event.recipes.create.pressing('kubejs:cataclysmic_mechanism', 'create:iron_sheet');
 
 
-    // =========================================================================
-    // 💾 CATEGORIA: ENGENHARIA DIGITAL (APPLIED ENERGISTICS 2)
-    // =========================================================================
-    event.custom({
-        type: "ae2:inscriber",
-        mode: "inscribe",
-        ingredients: {
-            top: { item: "ae2:printed_engineering_processor" },
-            middle: { item: "kubejs:kinetic_flux_matrix" },
-            bottom: { item: "ae2:engineering_processor_press" }
-        },
-        result: { item: "ae2:logic_processor" }
-    })
+    // ==========================================
+    // 💾 4. ENGENHARIA DIGITAL (APPLIED ENERGISTICS 2)
+    // ==========================================
+    // Sintaxe nativa estável do Inscriber sem erros de JSON
+    event.recipes.ae2.inscriber('kubejs:kinetic_flux_matrix', 'ae2:printed_engineering_processor', 'ae2:engineering_processor_press');
 
-})
+});
