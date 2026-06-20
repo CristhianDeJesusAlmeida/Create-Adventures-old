@@ -46,7 +46,7 @@ hash = "28c7ea20afe781150c1a3e6f642d513258eb0ac3a014d6e11992cdfbc8c9c4a3"
 
 [[files]]
 file = "kubejs/server_scripts/custom_progression.js"
-hash = "5c0e0f4ef280efa2f6ec2c3cd9562298dceb12467f514fd6df167a6c8d34a0d1"
+hash = "b6e1f491f10a712b9eebe459d07de83f840b3b53aa386064120535d26e1ffbba"
 
 [[files]]
 file = "kubejs/server_scripts/loot_balance.js"
