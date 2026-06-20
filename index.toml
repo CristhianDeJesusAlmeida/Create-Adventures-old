@@ -25,10 +25,6 @@ file = "kubejs/config/defaultoptions.txt"
 hash = "6d13cdcdce54f242d6ee04798a9301467a26233aad1960af725bae80b474e175"
 
 [[files]]
-file = "kubejs/config/packicon.png"
-hash = "61e4c8ff95de22dfb4078c1970f8662811af615a68a0a3a7159d2e13c1eb8127"
-
-[[files]]
 file = "kubejs/server_scripts/create_wrench.js"
 hash = "28c7ea20afe781150c1a3e6f642d513258eb0ac3a014d6e11992cdfbc8c9c4a3"
 
