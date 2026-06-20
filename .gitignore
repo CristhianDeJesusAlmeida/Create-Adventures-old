@@ -1,13 +1,10 @@
 /world/
 /logs/
 /screenshots/
+/crash-reports/
 *.jar
 !packwiz-installer-bootstrap.jar
-/config/
-!/kubejs/
-!/kubejs/config/
-kubejs/exported/**
-kubejs/probe/**
+/config/*
 !/config/defaultoptions/
 !/config/defaultoptions/defaultoptions.txt
 !/config/packicon.png
@@ -15,3 +12,5 @@ kubejs/probe/**
 !/config/common.json
 !/config/web_server.json
 !/config/ftbquests/
+kubejs/exported/**
+kubejs/probe/**
