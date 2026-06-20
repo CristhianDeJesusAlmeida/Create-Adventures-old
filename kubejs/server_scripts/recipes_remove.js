@@ -9,6 +9,12 @@
 // - Add the item id of the output item of the recipe and all recipes with that output will be removed
 const byOutput = [
     'ars_creo:starbuncle_wheel',
+    'oritech:machine_core_2',
+    'oritech:machine_core_3',
+    'oritech:machine_core_4',
+    'oritech:machine_core_5',
+    'oritech:machine_core_6',
+    'oritech:machine_core_7'
 ]
 //---[CODE]---------------------------------------------------------------------------------------------------------------------------------------
 

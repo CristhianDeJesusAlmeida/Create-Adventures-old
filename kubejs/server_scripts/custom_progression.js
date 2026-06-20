@@ -96,15 +96,20 @@ ServerEvents.recipes(event => {
     // 💾 4. ENGENHARIA DIGITAL (APPLIED ENERGISTICS 2)
     // =========================================================================
     // CORRIGIDO: Chave de resultado alterada de "item" para "id" para o interpretador do AE2 aceitar na 1.21.1
+        // =========================================================================
+    // 💾 4. ENGENHARIA DIGITAL (APPLIED ENERGISTICS 2)
+    // =========================================================================
+    // CORREÇÃO CIRÚRGICA: Formato JSON aceito nativamente pela engine do AE2 na 1.21.1
     event.custom({
         type: "ae2:inscriber",
         mode: "inscribe",
         ingredients: {
-            top: { item: "ae2:engineering_processor_press" },
-            middle: { item: "ae2:printed_engineering_processor" },
-            bottom: { item: "ae2:silicon_press" }
+            top: { id: "ae2:engineering_processor_press" },       // MOLDE SUPERIOR (id em vez de item)
+            middle: { id: "ae2:printed_engineering_processor" },   // ITEM CENTRAL
+            bottom: { id: "ae2:silicon_press" }                    // MOLDE INFERIOR
         },
-        result: { id: "kubejs:kinetic_flux_matrix" }
+        result: { id: "kubejs:kinetic_flux_matrix" }               // SEU ITEM CUSTOMIZADO DE SAÍDA
     });
+
 
 });

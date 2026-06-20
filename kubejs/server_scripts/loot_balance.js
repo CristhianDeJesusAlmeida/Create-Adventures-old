@@ -1,7 +1,7 @@
-// CORREÇÃO: "lootjs" em minúsculo conforme a API oficial estável da 1.21.1
-lootjs.modifiers((event) => {
+// Gatilho oficial da versão 3.7.0 do LootJS para carregar os modificadores
+LootJS.modifiers((event) => {
 
-    // Alvo: Todas as tabelas de loot do mod de estruturas do Create
+    // CORREÇÃO: Alvo unificado usando "create_structures" para interceptar baús normais e do Lootr juntos!
     event.addLootTableModifier(/create_structures:.*/)
         .replaceStack('create:brass_casing', 'create:andesite_casing')
         .replaceStack('create:precision_mechanism', 'create:electron_tube')
