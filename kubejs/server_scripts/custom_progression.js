@@ -14,6 +14,69 @@ ServerEvents.recipes(event => {
         C: 'kubejs:dragon_infused_core'     // O seu item customizado místico!
     });
 
+        // =========================================================================
+    // ⚙️ PROGRESSÃO INDUSTRIAL: ESCADA DE MACHINE CORES (ORITECH)
+    // =========================================================================
+
+    // TIER 3: Improved Machine Core
+    // Base: Machine Core 2 + Latão do Create
+    event.shaped('oritech:machine_core_3', [
+        'CBC',
+        'BMB',
+        'CBC'
+    ], {
+        C: 'create:brass_ingot',
+        B: 'create:brass_sheet',
+        M: 'oritech:machine_core_2' // Exige o Core 2!
+    });
+
+    // TIER 4: Advanced Machine Core
+    // Base: Machine Core 3 + Matriz de Fluxo Cinético do AE2 que você criou
+    event.shaped('oritech:machine_core_4', [
+        'ECE',
+        'CMC',
+        'ECE'
+    ], {
+        E: 'create:electron_tube',
+        C: 'kubejs:kinetic_flux_matrix', // Seu item místico da prensa!
+        M: 'oritech:machine_core_3'      // Exige o Core 3!
+    });
+
+    // TIER 5: Elite Machine Core
+    // Base: Machine Core 4 + Itens Avançados do Oritech
+    event.shaped('oritech:machine_core_5', [
+        'RCR',
+        'CMC',
+        'RCR'
+    ], {
+        R: 'oritech:small_battery',     // Exemplo de item técnico do Oritech
+        C: 'oritech:nickel_ingot',
+        M: 'oritech:machine_core_4'     // Exige o Core 4!
+    });
+
+    // TIER 6: Ultra Machine Core
+    // Base: Machine Core 5 + Mecanismo Cataclísmico das esteiras
+    event.shaped('oritech:machine_core_6', [
+        'ECE',
+        'CMC',
+        'ECE'
+    ], {
+        E: 'oritech:biosteel_ingot',
+        C: 'kubejs:cataclysmic_mechanism', // Seu item industrial pesado!
+        M: 'oritech:machine_core_5'         // Exige o Core 5!
+    });
+
+    // TIER 7: Ultimate Machine Core (O FIM DA JORNADA)
+    // Base: Machine Core 6 + O ápice do poder do Tensura e da Engenharia
+    event.shaped('oritech:machine_core_7', [
+        'DND',
+        'NMN',
+        'DND'
+    ], {
+        D: 'minecraft:netherite_ingot',
+        N: 'kubejs:dragon_infused_core',  // Seu item lendário de Magícula!
+        M: 'oritech:machine_core_6'       // Exige o Core 6!
+    });
 
     // =========================================================================
     // 🔮 2. PROGRESSÃO E MAGIA (TENSURA)
@@ -47,5 +110,5 @@ ServerEvents.recipes(event => {
         'ae2:engineering_processor_press',         // MOLDE SUPERIOR (Slot de cima)
         'ae2:silicon_press'                        // MOLDE INFERIOR (Slot de baixo - mude se quiser colocar outra prensa)
     );
-    
+
 });
