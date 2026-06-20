@@ -46,11 +46,11 @@ hash = "28c7ea20afe781150c1a3e6f642d513258eb0ac3a014d6e11992cdfbc8c9c4a3"
 
 [[files]]
 file = "kubejs/server_scripts/custom_progression.js"
-hash = "e751ab7d37c04bf7362a9505b94ff31e5e298d2cbf11dc3ac549845b99f7e9ea"
+hash = "3a8aeb30572a130b67c3b7a5c04de2e549f86406ba421c33eb8ce791f3e8d1d1"
 
 [[files]]
 file = "kubejs/server_scripts/loot_balance.js"
-hash = "bdb4a1cd25aecf89b29918950447cc95f73bd220f5ca004f868ba58a09586985"
+hash = "0f902ceb2b40a91614d26a2bea1dadbd894744a3fc0d55014625330abea61cdb"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_add.js"
