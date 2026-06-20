@@ -1,5 +1,5 @@
-// CORREÇÃO: Utiliza o listener nativo moderno de eventos genéricos de loot para carregar o LootJS na 1.21.1
-ServerEvents.genericLootModifiers(event => {
+// Gatilho oficial global para carregar os modificadores do LootJS de forma estável
+LootJS.modifiers((event) => {
 
     // Alvo: Todas as tabelas de loot do mod de estruturas do Create
     event.addLootTableModifier(/create_structures:.*/)
