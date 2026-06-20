@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/cataclysmic_mechanism.png"
+hash = "eebc9dc96bc74316732408a5734ef2343f713886ed53e6e5e86e2241c8898886"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/dragon_infused_core.png"
+hash = "b72c8569bce275cf455505b093e87c82cc1e2791f248cec97e1f29a78a5550be"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/kinetic_flux_matrix.png"
+hash = "af1d0d348141095223a7b9bc908f0cf3018465057753b1f18d0ef5523e49b40a"
+
+[[files]]
 file = "kubejs/client_scripts/main.js"
 hash = "4e5d2a296790c002a5f998d65331079c06aa1332416553ac2877b2f2541c5014"
 
@@ -29,12 +41,24 @@ file = "kubejs/server_scripts/create_wrench.js"
 hash = "fb2c67bf084bef2c0d74889140eb4266447b6f3be232a5d5a593911e0b5d406e"
 
 [[files]]
+file = "kubejs/server_scripts/custom_progression.js"
+hash = "21755ec22bb1f4f7da452a46df26304304313b47498077be1fa7be75bd25dc68"
+
+[[files]]
+file = "kubejs/server_scripts/loot_balance.js"
+hash = "e6b38aa107931ab9d324c7fa893204eb2a552c19d58202c3faa39baa690b998e"
+
+[[files]]
 file = "kubejs/server_scripts/recipes_add.js"
 hash = "980a07b13acdeaebc3f3a3446bc7bc817d2dde6b41ecae3c885b88b7bcaf790d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_remove.js"
 hash = "d84c7ca712dc178a91c28fcd72c13fcaa9b6edc4c57e6ad6e07bbd5d2a107a64"
+
+[[files]]
+file = "kubejs/startup_scripts/custom_items.js"
+hash = "c5bcff15108d72569022bf99b45900e5bd7a8a99dbe7b3617a83c95b47cae88e"
 
 [[files]]
 file = "kubejs/startup_scripts/stack.js"
@@ -127,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
+hash = "4c59385c9c65a7a367adeacbabc57fa82f5796f1d987801397eb11e9c5421af7"
 metafile = true
 
 [[files]]
@@ -592,7 +616,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "68e15ffc71a84261e0dbbb317329788c21a7b9eb8060687dc8a51008cc3029fe"
+hash = "023665773be88c2f207e726f095c0aa4481df3c79b8295297f23ea6f3eac4e4d"
 metafile = true
 
 [[files]]
@@ -608,16 +632,6 @@ metafile = true
 [[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "9bea3782285e9dafcccd88d817ab4a6505400955b5343f1b6df16fa29122c410"
-metafile = true
-
-[[files]]
-file = "mods/hypertube.pw.toml"
-hash = "83b79ed55e7322be1451db1fb52dccb80a41b0ab6d609c99ba9248bbafd1f003"
-metafile = true
-
-[[files]]
-file = "mods/iceandfire-ce.pw.toml"
-hash = "ca565900b51b895c5fd482ef464ae8b658b9486c40289b7eeca5ac8094e677b2"
 metafile = true
 
 [[files]]
@@ -672,7 +686,7 @@ metafile = true
 
 [[files]]
 file = "mods/jupiter.pw.toml"
-hash = "a3d803079f7cba47f9d6bf728198f2c335a13938ef50bbdaa3f7ae2457bef58d"
+hash = "94e60b318f0746a2f781ae12fab074ab78cd8cbd274f1fc5cc5465e3bf234469"
 metafile = true
 
 [[files]]
@@ -737,7 +751,7 @@ metafile = true
 
 [[files]]
 file = "mods/manascore.pw.toml"
-hash = "ea327466b8d3ebe83329de194d77790f7d68fe25e56f0bfeda319527636bb7cb"
+hash = "4c26b42717b453fb54cff69b080abb0d07a836b7a77b491dd4636b7e1200a03b"
 metafile = true
 
 [[files]]
@@ -862,7 +876,7 @@ metafile = true
 
 [[files]]
 file = "mods/smartbrainlib.pw.toml"
-hash = "a007749d96635800aeebd51b2e1a4bff992ffd4b9d81ed20bdb5bede7e580e30"
+hash = "27c6365bdc19eff05f3231bff86a4f09b2d584fed40de92d67c00b4cbd52862a"
 metafile = true
 
 [[files]]
@@ -902,7 +916,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurify.pw.toml"
-hash = "b18e1a0b57b9f02ce56993b9f2d1dc3571ca79dfb496daf48c7537b28fa224a4"
+hash = "8ec8a4087c83cab59adcf8e5b04c054f059e6f2716c702ebb610f3fcde912275"
 metafile = true
 
 [[files]]
@@ -927,32 +941,32 @@ metafile = true
 
 [[files]]
 file = "mods/tensura-boss-structure.pw.toml"
-hash = "88a1ecc215d9baaf04eb5852c14de5f101345ac2cd6909271e1fc10208328c15"
+hash = "543f8231f954e48d3e9456815691f1f0e41cc7b52728c1f1713286abbd61e198"
 metafile = true
 
 [[files]]
 file = "mods/tensura-compat-ftb.pw.toml"
-hash = "de2e593e650d39b9bac33018a35a0846904c39dbad549399b6918fa340f51809"
-metafile = true
-
-[[files]]
-file = "mods/tensura-compat-ice-fire.pw.toml"
-hash = "4d49d9511de221769958f10da8cc499005e13b146d8e26b9d83db0ccdd1535a8"
+hash = "be4c462f00648860490cfa7a75f941882a62c81b131ac58110399266e0454727"
 metafile = true
 
 [[files]]
 file = "mods/tensura-not-enough-bosses.pw.toml"
-hash = "df45720908b1686cd28bbae04ac22e38e0ece562def250686ccf8ca8c83c6179"
+hash = "b2524012a3df49e965abdac65474336c2cec6570280a33c242eaa7b7288969f8"
 metafile = true
 
 [[files]]
 file = "mods/tensura-reincarnated.pw.toml"
-hash = "61f7a42fa8bd341d4ef3e8e350fbeb0d6d27a7a90fa5d66b810b119d2da37267"
+hash = "b14b8a2fa1354f8d71454eac336331c66c54b8bebf971cb443fae08a00148245"
 metafile = true
 
 [[files]]
 file = "mods/terra-curio.pw.toml"
 hash = "eeb5d9000fffbc7df8ae29bcbb00afa98cdd5a0154938d5fe59f8334d9039760"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
 
 [[files]]
@@ -987,7 +1001,7 @@ metafile = true
 
 [[files]]
 file = "mods/uranus.pw.toml"
-hash = "871c2c9e058c001c3eae91d7f6329fae068d284defb758a7c9552a919ee78f21"
+hash = "72559f4f2fcd3fda3404a1f3a8538755e5622a5ca0e0e2a652b3424ee45cb6f6"
 metafile = true
 
 [[files]]
@@ -997,7 +1011,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "492daa3391b6079b541685db276007b286774bab3b9881505127b7aef6b3f16c"
+hash = "51646aad5b85fe23e82740cd5196734d432a4ab9e14ea4a8bb9532e266ea4c02"
 metafile = true
 
 [[files]]
