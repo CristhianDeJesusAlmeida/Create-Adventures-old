@@ -1,0 +1,31 @@
+{
+	id: "1A2B3C4D5E6F7G8H"
+	group: ""
+	order_index: 0
+	filename: "capitulo_1"
+	title: "§6Capítulo 1: O Despertar da Engenharia"
+	icon: "create:andesite_alloy"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "§ePrimeiros Passos Técnicos"
+			x: 0.0d
+			y: 0.0d
+			description: ["Bem-vindo ao Create Adventures! Sua jornada começa coletando materiais básicos para as ligas industriais."]
+			id: "0000000000000001"
+			tasks: [{
+				id: "0000000000000002"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0000000000000003"
+				type: "item"
+				item: "minecraft:bread"
+				count: 8
+			}]
+		}
+	]
+}

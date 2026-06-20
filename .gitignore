@@ -4,7 +4,7 @@
 /crash-reports/
 *.jar
 !packwiz-installer-bootstrap.jar
-/config/*
+!/config/*
 !/config/defaultoptions/
 !/config/defaultoptions/defaultoptions.txt
 !/config/packicon.png
