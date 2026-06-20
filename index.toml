@@ -38,7 +38,7 @@ hash = "6d13cdcdce54f242d6ee04798a9301467a26233aad1960af725bae80b474e175"
 
 [[files]]
 file = "kubejs/config/packicon.png"
-batata
+hash = "batata"
 
 [[files]]
 file = "kubejs/server_scripts/create_wrench.js"
