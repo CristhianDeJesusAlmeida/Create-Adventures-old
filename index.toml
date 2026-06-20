@@ -799,16 +799,6 @@ hash = "5dc059422613b5645cb00e32d3bfd53de428c4939113d11ce2c844cb54165da6"
 metafile = true
 
 [[files]]
-file = "mods/no-moon-network-fix.pw.toml"
-hash = "63554b12b09b2e97bca9df4800164da6f78cb3c8a3a9223c96ca260a44753d65"
-metafile = true
-
-[[files]]
-file = "mods/no_moon.jar.pw.toml"
-hash = "ff47a6dc5871a31b3729187e967eab236138bf8b772a712e9a10ec9ed3cb945e"
-metafile = true
-
-[[files]]
 file = "mods/occultism.pw.toml"
 hash = "a5b80de18ecbe994fb4381846ddf091264e5d5daba3dc982c13bfc12b98b256f"
 metafile = true
