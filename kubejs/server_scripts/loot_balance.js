@@ -1,4 +1,6 @@
-LootJS.modifiers((event) => {
+// CORREÇÃO: Utiliza o listener nativo moderno de eventos genéricos de loot para carregar o LootJS na 1.21.1
+ServerEvents.genericLootModifiers(event => {
+
     // Alvo: Todas as tabelas de loot do mod de estruturas do Create
     event.addLootTableModifier(/create_structures:.*/)
         // Substitui itens avançados por equivalentes básicos de forma justa
@@ -9,4 +11,5 @@ LootJS.modifiers((event) => {
         // Reduz a quantidade de metais valiosos pela metade para balancear
         .modifyLoot('minecraft:iron_ingot', (stack) => stack.withCount(Math.max(1, Math.floor(stack.getCount() / 2))))
         .modifyLoot('minecraft:gold_ingot', (stack) => stack.withCount(Math.max(1, Math.floor(stack.getCount() / 2))));
+
 });

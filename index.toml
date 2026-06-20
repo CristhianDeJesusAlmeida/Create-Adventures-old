@@ -50,7 +50,7 @@ hash = "b6e1f491f10a712b9eebe459d07de83f840b3b53aa386064120535d26e1ffbba"
 
 [[files]]
 file = "kubejs/server_scripts/loot_balance.js"
-hash = "b50be9bbc80d255643e2e6c13b3f255392038537654fe9b5f5584f594b7a2098"
+hash = "bdb4a1cd25aecf89b29918950447cc95f73bd220f5ca004f868ba58a09586985"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_add.js"
