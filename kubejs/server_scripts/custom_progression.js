@@ -92,19 +92,15 @@ ServerEvents.recipes(event => {
     event.recipes.create.pressing('kubejs:cataclysmic_mechanism', 'create:iron_sheet');
 
 
-    // ==========================================
+    // =========================================================================
     // 💾 4. ENGENHARIA DIGITAL (APPLIED ENERGISTICS 2)
-    // ==========================================
-    // CORRIGIDO: Formato de saída do JSON mapeado estritamente com a chave "id" aceita pelo AE2 na 1.21.1
-    event.custom({
-        type: "ae2:inscriber",
-        mode: "inscribe",
-        ingredients: {
-            top: { item: "ae2:engineering_processor_press" },
-            middle: { item: "ae2:printed_engineering_processor" },
-            bottom: { item: "ae2:silicon_press" }
-        },
-        result: { id: "kubejs:kinetic_flux_matrix" }
-    });
+    // =========================================================================
+    // CORREÇÃO: Sintaxe oficial da API do AE2 para alinhar Moldes (Top/Bottom) e o Item do meio (Middle)
+    event.recipes.ae2.inscriber(
+        'kubejs:kinetic_flux_matrix',             // ITEM DE SAÍDA (O seu item customizado!)
+        'ae2:printed_engineering_processor',       // ITEM CENTRAL (Slot do meio)
+        'ae2:engineering_processor_press',         // MOLDE SUPERIOR (Slot de cima)
+        'ae2:silicon_press'                        // MOLDE INFERIOR (Slot de baixo - mude se quiser colocar outra prensa)
+    );
 
 });
