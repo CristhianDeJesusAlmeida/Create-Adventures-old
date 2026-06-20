@@ -1,0 +1,13 @@
+name = "RebindNarrator"
+filename = "rebindnarrator-neoforge-1.21-1.21.8-1.2.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/elMC8kn3/versions/70bs3beS/rebindnarrator-neoforge-1.21-1.21.8-1.2.2.jar"
+hash-format = "sha512"
+hash = "d0ce253b176fa293bbea20d44ae7ad4a81364558bff61d0960479fe29ffd6d5b6e488f1c072eb9d0370121b0da4b7670bf10dc36801d852e66d6b6edf2f16b48"
+
+[update]
+[update.modrinth]
+mod-id = "elMC8kn3"
+version = "70bs3beS"

@@ -1,0 +1,13 @@
+name = "Ars Expanded Combat Compat"
+filename = "ec_ars_plugin-1.21.1-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UZo5yrwp/versions/juQnRzoX/ec_ars_plugin-1.21.1-1.0.5.jar"
+hash-format = "sha512"
+hash = "409d42b74198f5f76832be0abc9194d36676d9363fe16dfb9c5c6c13cc65486a57fca52abcdd4db7e33200d212f54eb2243506992755ecc31d7f82d816b46b92"
+
+[update]
+[update.modrinth]
+mod-id = "UZo5yrwp"
+version = "juQnRzoX"

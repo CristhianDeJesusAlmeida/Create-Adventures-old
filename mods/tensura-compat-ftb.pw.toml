@@ -1,0 +1,13 @@
+name = "Tensura Compat: FTB"
+filename = "tensura_ftb-neoforge-2.0.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UNCI38gZ/versions/FqVTR45H/tensura_ftb-neoforge-2.0.0.3.jar"
+hash-format = "sha512"
+hash = "0e3f1369b56efd7f5cccbfe1bfad6397ae1abc61e784fb1782dc1ef4d67dfc1f8bd22a6195b98f3ae6e6b296fed89f936e765cc03b543f4c80cd3ed95fb38cd1"
+
+[update]
+[update.modrinth]
+mod-id = "UNCI38gZ"
+version = "FqVTR45H"

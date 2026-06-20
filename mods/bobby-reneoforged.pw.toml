@@ -1,0 +1,13 @@
+name = "Bobby ReNeoForged [Unofficial Port]"
+filename = "bobby_reneoforged-5.2.4-0.2+mc1.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/YPww10NZ/versions/CIkTy8os/bobby_reneoforged-5.2.4-0.2%2Bmc1.21.jar"
+hash-format = "sha512"
+hash = "46eb92e5ffbf9a767ec66bb9a02497bc8f8c377c4dae7db67f99e943f5b70ff93afbb724bcf05d76747edd869d5476759920799f1071990ab98daf474fad0b73"
+
+[update]
+[update.modrinth]
+mod-id = "YPww10NZ"
+version = "CIkTy8os"
