@@ -9,18 +9,6 @@ file = "config/ftbquest/index.snbt"
 hash = "7895a8cd4d22ff2e365c80f94ac7089a8616960af35859d7656c483399c51bd5"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/cataclysmic_mechanism.png"
-url = "https://imgur.com/a/hoIA0WZ"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/dragon_infused_core.png"
-url = "https://imgur.com/a/3Jlqe8M"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/kinetic_flux_matrix.png"
-url = "https://imgur.com/a/0bWZgcs"
-
-[[files]]
 file = "kubejs/client_scripts/main.js"
 hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
@@ -38,7 +26,7 @@ hash = "6d13cdcdce54f242d6ee04798a9301467a26233aad1960af725bae80b474e175"
 
 [[files]]
 file = "kubejs/config/packicon.png"
-hash = "batata"
+hash = "61e4c8ff95de22dfb4078c1970f8662811af615a68a0a3a7159d2e13c1eb8127"
 
 [[files]]
 file = "kubejs/server_scripts/create_wrench.js"
