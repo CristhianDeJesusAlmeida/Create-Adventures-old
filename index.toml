@@ -9,14 +9,6 @@ file = "config/ftbquest/index.snbt"
 hash = "7895a8cd4d22ff2e365c80f94ac7089a8616960af35859d7656c483399c51bd5"
 
 [[files]]
-file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "1c51aaeac15d8ef4c1483e2506243226e0c1642bc72dfda331334e6bbe2990df"
-
-[[files]]
-file = "kubejs/assets/kubejs/lang/pt_br.json"
-hash = "d068d6f7eda216c9e1bb095071b7b1429c9a04619d8818665f4c32892cfd2d1d"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/cataclysmic_mechanism.png"
 hash = "09410b036ec36dce6c701d416bdddc84f6f08dc574fe2ead960e6cddb457cb28"
 
