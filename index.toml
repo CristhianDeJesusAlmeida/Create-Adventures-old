@@ -982,11 +982,6 @@ hash = "e4ced1c70be45fd8e734418769c36f8af66b62d46c5171e931b7195cd84de434"
 metafile = true
 
 [[files]]
-file = "mods/tectonic.pw.toml"
-hash = "cd5c8c1f6183f5c2ca899daed14f272890566002dfcb2d9f9a59dfbfac0bc8f6"
-metafile = true
-
-[[files]]
 file = "mods/tensura-boss-structure.pw.toml"
 hash = "88a1ecc215d9baaf04eb5852c14de5f101345ac2cd6909271e1fc10208328c15"
 metafile = true
