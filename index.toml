@@ -782,6 +782,11 @@ hash = "ea327466b8d3ebe83329de194d77790f7d68fe25e56f0bfeda319527636bb7cb"
 metafile = true
 
 [[files]]
+file = "mods/memory-settings.pw.toml"
+hash = "a271fc14aa67bc08206873e51e1aa07bf1f3b9de5b7f9b49773e0ff8ff9a584e"
+metafile = true
+
+[[files]]
 file = "mods/modern-ui.pw.toml"
 hash = "1a4bbd8ae2d938b514eee771d68e531a9b1acd6f65bf759fd18e7977aff23baa"
 metafile = true
