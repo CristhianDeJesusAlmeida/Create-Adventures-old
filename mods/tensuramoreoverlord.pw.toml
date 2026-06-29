@@ -1,0 +1,13 @@
+name = "TensuraMoreOverlord"
+filename = "tensuramoreoverlord-0.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "98354bdf3caea402a76168c89caf3a58ce8c2d7c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8259339
+project-id = 1572985

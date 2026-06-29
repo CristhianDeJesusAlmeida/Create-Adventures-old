@@ -1,0 +1,13 @@
+name = "Tensura: Mysticism"
+filename = "mysticism-neoforge-2.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bjvFzLV3/versions/AykwqsYL/mysticism-neoforge-2.0.3.jar"
+hash-format = "sha512"
+hash = "17f00063ae47816be674a44d4e7fd48c4626a9e9ff443863ad265f3e9688303b8309f2a58692163e3c68799d122768266ff05f6ca86bf352c34dd115c406e618"
+
+[update]
+[update.modrinth]
+mod-id = "bjvFzLV3"
+version = "AykwqsYL"
