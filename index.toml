@@ -827,6 +827,11 @@ hash = "5dc059422613b5645cb00e32d3bfd53de428c4939113d11ce2c844cb54165da6"
 metafile = true
 
 [[files]]
+file = "mods/no-see-no-tick.pw.toml"
+hash = "a651cdc9954050ee91291e88c3c546c51758e2803bff785614ee87feb14ae10b"
+metafile = true
+
+[[files]]
 file = "mods/occultism.pw.toml"
 hash = "e1c71d5a03785519526cbb2c7eed11204cc5ecc1e0192aca58301906abe41961"
 metafile = true
