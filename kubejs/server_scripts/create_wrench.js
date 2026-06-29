@@ -50,10 +50,11 @@ ServerEvents.tags('block', event => {
         'minecraft:composter', 
         'minecraft:sea_lantern', 
         'supplementaries:cog_block', 
-        'createages:andesite_machine', 
-        'createages:copper_machine',  
-        'createages:brass_machine', 
-        'ars_additions:sourcestone_chain', // Duplicata removida daqui
+        // Corrigido de 'createages' para 'create_new_age'
+        'create_new_age:andesite_machine', 
+        'create_new_age:copper_machine',  
+        'create_new_age:brass_machine', 
+        'ars_additions:sourcestone_chain',
         'ars_additions:polished_sourcestone_chain', 
         'ars_additions:golden_chain', 
         'createdeco:andesite_bars_overlay', 
@@ -92,17 +93,17 @@ ServerEvents.tags('block', event => {
         'createdeco:zinc_mesh_fence', 
         'createdeco:andesite_hull', 
         'enderstorage:ender_tank' 
-    ] 
+    ];
     
-    // Adiciona a lista estática de blocos
-    event.add('create:wrench_pickup', wrenchableBlocks); 
+    // Adiciona a lista de blocos ignorando caso algum id não exista (evita crash do script)
+    event.get('create:wrench_pickup').add(wrenchableBlocks);
 
     // Coleta TODOS os alçapões do jogo via Regex
-    event.add('create:wrench_pickup', /.*:.*_trapdoor$/); 
+    event.get('create:wrench_pickup').add(/.*:.*_trapdoor$/); 
 
-    // Coleta TODOS os blocos vindos do mod 'dndecor' (Substituindo o antigo @dndecor)
-    event.add('create:wrench_pickup', /^dndecor:.*/);
+    // Coleta TODOS os blocos vindos do mod 'dndecor'
+    event.get('create:wrench_pickup').add(/^dndecor:.*/);
 
-    // Adiciona uma tag de bloco inteira corretamente (Correntes do formato Common/c)
-    event.add('create:wrench_pickup', '#c:chains');
+    // Adiciona a tag comum de correntes para poder pegar com a chave
+    event.get('create:wrench_pickup').add('#c:chains');
 });

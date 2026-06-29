@@ -3,7 +3,7 @@
 /**
  * @param {Internal.RecipeEventJS} event
  * @param {string|Item} output
- * @param {Array<string|null|undefined>} ingredientsArray
+ * @param {Array<string|null|undefined|Item>} ingredientsArray
  */
 const robustShaped = (event, output, ingredientsArray) => {
     const totalIngredients = ingredientsArray.length;
@@ -19,14 +19,14 @@ const robustShaped = (event, output, ingredientsArray) => {
     const letterToItem = {};
     const itemToLetter = {};
     let nextLetterIndex = 0;
-    
-    let cleanedIngredient;
-    let itemString;
-    let char;
 
-    ingredientsArray.forEach(inputItem => {
-        cleanedIngredient = (inputItem || '').trim();
-        
+    // Transforma tudo em string de forma segura para não dar erro de .trim() com objetos
+    const safeIngredients = ingredientsArray.map(item => {
+        if (!item) return '';
+        return (typeof item === 'string') ? item.trim() : item.toString().trim();
+    });
+
+    safeIngredients.forEach(cleanedIngredient => {
         if (cleanedIngredient.length > 0 && !(cleanedIngredient in itemToLetter)) {
             const letter = allLetters[nextLetterIndex++];
             itemToLetter[cleanedIngredient] = letter;
@@ -38,13 +38,8 @@ const robustShaped = (event, output, ingredientsArray) => {
     let currentPatternRow = '';
     
     for (let i = 0; i < totalIngredients; i++) {
-        itemString = (ingredientsArray[i] || '').trim(); 
-        
-        if (itemString.length === 0) {
-            char = ' '; 
-        } else {
-            char = itemToLetter[itemString]; 
-        }
+        let itemString = safeIngredients[i]; 
+        let char = (itemString.length === 0) ? ' ' : itemToLetter[itemString];
 
         currentPatternRow += char;
         
@@ -58,24 +53,41 @@ const robustShaped = (event, output, ingredientsArray) => {
     console.log(`[RobustShaped] Created SHAPED (${width}x${width}) recipe for ${output}`);
 };
 
+// Array de Receitas Com Forma (Grid 2x2 ou 3x3 em formato linear)
+const shapedRecipes = [
+    /* 
+    Exemplo de uso:
+    {
+        output: 'minecraft:furnace',
+        input: [
+            '#minecraft:stone_crafting_materials', '#minecraft:stone_crafting_materials', '#minecraft:stone_crafting_materials',
+            '#minecraft:stone_crafting_materials', '',                                     '#minecraft:stone_crafting_materials',
+            '#minecraft:stone_crafting_materials', '#minecraft:stone_crafting_materials', '#minecraft:stone_crafting_materials'
+        ]
+    }
+    */
+];
+
+// Array de Receitas Sem Forma (Shapeless)
 const shapelessRecipes = [
-    // Shapeless Recipe
-      {
+    {
         output: 'ars_creo:starbuncle_wheel',
         input: [
             'create:water_wheel', 
             'ars_nouveau:starbuncle_shards'
         ]
     }
-]
+];
 
 // MAIN RECIPE EVENT
 ServerEvents.recipes(event => {
 
-    /*shapedRecipes.forEach(recipe => {
+    // Registra todas as receitas robustas (Grid 2x2 e 3x3)
+    shapedRecipes.forEach(recipe => {
         robustShaped(event, recipe.output, recipe.input);
-    });*/
+    });
 
+    // Registra todas as receitas sem forma
     shapelessRecipes.forEach(recipe => {
         event.shapeless(recipe.output, recipe.input);
     });

@@ -38,7 +38,6 @@ ServerEvents.recipes(event => {
     });
 
     // TIER 5: Elite Machine Core
-    // CORRIGIDO: Substituído o ID inexistente small_battery por oritech:basic_battery
     event.shaped('oritech:machine_core_5', [
         'RCR',
         'CMC',
@@ -94,16 +93,19 @@ ServerEvents.recipes(event => {
     // =========================================================================
     // 💾 4. ENGENHARIA DIGITAL (APPLIED ENERGISTICS 2)
     // =========================================================================
-    // CORREÇÃO CIRÚRGICA: Formato JSON com chaves "item" internas aceito pelo motor do AE2 na 1.21.1
+    // Correção: Adicionado 'count: 1' para evitar o erro EncoderException
     event.custom({
         type: "ae2:inscriber",
         mode: "inscribe",
         ingredients: {
-            top: { item: "ae2:engineering_processor_press" },       // MOLDE SUPERIOR
-            middle: { item: "ae2:printed_engineering_processor" },   // ITEM CENTRAL
-            bottom: { item: "ae2:silicon_press" }                    // MOLDE INFERIOR
+            top: { item: "ae2:engineering_processor_press" },       
+            middle: { item: "ae2:printed_engineering_processor" },  
+            bottom: { item: "ae2:silicon_press" }                   
         },
-        result: { id: "kubejs:kinetic_flux_matrix" }                 // SEU ITEM CUSTOMIZADO DE SAÍDA
+        result: { 
+            id: "kubejs:kinetic_flux_matrix",
+            count: 1 
+        }                 
     });
 
-}); // Garanta que essa chave fecha o arquivo!
+});

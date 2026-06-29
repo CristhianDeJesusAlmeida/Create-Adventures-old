@@ -50,19 +50,19 @@ hash = "61e4c8ff95de22dfb4078c1970f8662811af615a68a0a3a7159d2e13c1eb8127"
 
 [[files]]
 file = "kubejs/server_scripts/create_wrench.js"
-hash = "28c7ea20afe781150c1a3e6f642d513258eb0ac3a014d6e11992cdfbc8c9c4a3"
+hash = "cd0e8e1ccf13d7300b752604faf2b2ad8d7edd64dc6e5f4c33a9d7d04952b2f8"
 
 [[files]]
 file = "kubejs/server_scripts/custom_progression.js"
-hash = "7e9eb4f820380f1a39cc6bf7eebac3abf299b87cfefdd5316845649ca535664f"
+hash = "ad106e93673b21e283b96677053a277c86ed9cdfc6152b3d6ec61718689e7503"
 
 [[files]]
 file = "kubejs/server_scripts/loot_balance.js"
-hash = "730d4118fd8386c334a72e13e80e638e5f11936bae9ed04dbb4ddc99d5285222"
+hash = "67435c3ce6165e48bec17c69b31b40b84c6d0ef95c5a0065e0c9b3901196b67a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_add.js"
-hash = "1443b7b30b1fe8efbe5aa47ad9e8b9489a9d08b99603fddb269ddab608de64c4"
+hash = "d1915c6d74778b07d9dd1c7a2740fe95aaf837cd7cf8322e5de15d7675db6dee"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_remove.js"
