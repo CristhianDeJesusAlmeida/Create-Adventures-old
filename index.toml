@@ -902,11 +902,6 @@ hash = "73487fdb7ed4a8730ab73603f0a522c052a087eaef9e24b5b9ec743bf4e3fcfc"
 metafile = true
 
 [[files]]
-file = "mods/neoorigins.pw.toml"
-hash = "9d7b82e6ce7addf8cb1aecd97a19fe90310a70ad5daab229274176bc1a9aa1e9"
-metafile = true
-
-[[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "5dc059422613b5645cb00e32d3bfd53de428c4939113d11ce2c844cb54165da6"
 metafile = true
