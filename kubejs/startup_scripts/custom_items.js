@@ -1,41 +1,27 @@
-// ============================================================================
-// 🎲 LOOT TABLE MODIFIERS - LootJS 3.x (Minecraft 1.21.1 / NeoForge)
-// ============================================================================
-// Modifica os baús de estruturas do Create para se adequar à progressão
-// do modpack, substituindo itens avançados por versões mais simples e
-// reduzindo a quantidade de recursos preciosos encontrados.
-// ============================================================================
+StartupEvents.registry('item', event => {
+    // Item para a usar no oritech (Núcleo Oritech)
+    event.create('dragon_infused_core')
+         .displayName('Núcleo Mecânico Infundido com Dragão')
+         .tooltip('§7Energia elemental estabilizada por engenharia mecânica.');
 
-LootJS.modifiers((event) => {
+    // Item para a oara usar em maquinas avançadas do oritech (Componente de Bosses)
+    event.create('cataclysmic_mechanism')
+         .displayName('Mecanismo Cataclísmico')
+         .tooltip('§cSuporta pressões extremas e energias colossais.');
 
-    // =========================================================================
-    // 🏗️ ESTRUTURAS DO CREATE (create_structures)
-    // =========================================================================
-    // Seleciona TODAS as loot tables do mod Create Structures via Regex
-    event.addTableModifier(/^create_structures:.*/)
+    // Item para a usar no AE2 (Filtro/Matriz do AE2)
+  
+    // Item intermediário (bruto - saída do primeiro passo da Inscriber)
+    event.create('kubejs:kinetic_flux_matrix_raw')
+        .displayName('Raw Kinetic Flux Matrix')
+        .texture('kubejs:item/kinetic_flux_matrix_raw')
+        .rarity('UNCOMMON');
 
-        // -----------------------------------------------------------------
-        // 🔄 SUBSTITUIÇÃO DE ITENS
-        // Itens avançados são substituídos por versões mais básicas,
-        // forçando o jogador a fabricá-los manualmente via progressão.
-        // -----------------------------------------------------------------
-        .replaceLoot('create:brass_casing',         'create:andesite_casing')
-        .replaceLoot('create:precision_mechanism',  'create:electron_tube')
-        .replaceLoot('create:brass_ingot',          'create:zinc_ingot')
-
-        // -----------------------------------------------------------------
-        // ⚖️ REDUÇÃO DE QUANTIDADE
-        // Reduz recursos preciosos à metade (mínimo de 1 unidade).
-        // Isso torna as estruturas menos lucrativas e valoriza a mineração.
-        // -----------------------------------------------------------------
-        .modifyLoot('minecraft:iron_ingot', (stack) => {
-            let newCount = Math.max(1, Math.floor(stack.count / 2));
-            return stack.withCount(newCount);
-        })
-
-        .modifyLoot('minecraft:gold_ingot', (stack) => {
-            let newCount = Math.max(1, Math.floor(stack.count / 2));
-            return stack.withCount(newCount);
-        });
+    // Item final (saída do segundo passo da Inscriber)
+    event.create('kubejs:kinetic_flux_matrix')
+        .displayName('Kinetic Flux Matrix')
+        .texture('kubejs:item/kinetic_flux_matrix')
+        .rarity('RARE')
+        .glow(true); // Deixa o item com brilho encantado para parecer mais poderoso!
 
 });

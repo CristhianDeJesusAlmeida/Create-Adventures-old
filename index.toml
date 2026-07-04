@@ -62,7 +62,7 @@ hash = "4460b0f6471eec11cbe5ec16412145fdc161b8ef856d9d41f62d9a911c1f12fb"
 
 [[files]]
 file = "kubejs/server_scripts/loot_balance.js"
-hash = "67435c3ce6165e48bec17c69b31b40b84c6d0ef95c5a0065e0c9b3901196b67a"
+hash = "d88074621caed90753aafd46fadd2a7176203c067a05bc1e1df17c8853196a1e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_add.js"
@@ -74,7 +74,7 @@ hash = "a33146c3a1a2b613816a276daa7eecc82df6dac882424b37e30d0a23442bcb32"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_items.js"
-hash = "d88074621caed90753aafd46fadd2a7176203c067a05bc1e1df17c8853196a1e"
+hash = "9055685ca31127a1b5c51df08d0f17455ba0bf5656aaebdb4aa3d10371a49786"
 
 [[files]]
 file = "kubejs/startup_scripts/stack.js"
