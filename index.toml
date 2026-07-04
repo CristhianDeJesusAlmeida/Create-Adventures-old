@@ -307,11 +307,6 @@ hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
 metafile = true
 
 [[files]]
-file = "mods/cataclysmic-arsenal-epic-fight.pw.toml"
-hash = "ada9280a179a956b6816a327d9f6735b8de10ed0f1fb129d84817a3148679e53"
-metafile = true
-
-[[files]]
 file = "mods/chipped.pw.toml"
 hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
@@ -809,11 +804,6 @@ metafile = true
 [[files]]
 file = "mods/l_enders-cataclysm.pw.toml"
 hash = "42f793ba7a706070d13406935e0264e2f0ffec8f7a8de56dde2a49b9f265be3a"
-metafile = true
-
-[[files]]
-file = "mods/lendercataclysm.pw.toml"
-hash = "15d0aa0c6da198fde776ea62dc5f86ab17342d94ddb15ccb73710bf98dacfd6d"
 metafile = true
 
 [[files]]
