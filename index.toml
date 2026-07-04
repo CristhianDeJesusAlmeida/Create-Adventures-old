@@ -111,6 +111,11 @@ hash = "23ca334019a3e9572ea1c462d5c4e732eb34f657111951cfb781cd52da59b08c"
 metafile = true
 
 [[files]]
+file = "mods/ae2-qol-client.pw.toml"
+hash = "d613025b9f782e2e55c871109877fb1db35586553653401876e33770f69e7efb"
+metafile = true
+
+[[files]]
 file = "mods/ae2-things-forge.pw.toml"
 hash = "67b76e29b60a2869859d15a85ff2ba4377a0a21c9ad57f3213ec866605ca04c5"
 metafile = true
@@ -838,6 +843,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "141584f0498f59dc445d163b82e148b339a7948927e476c6183b40da19c05799"
+metafile = true
+
+[[files]]
+file = "mods/mafglib.pw.toml"
+hash = "2726c6991c3cc6ee3644725fd98759b6d8b2cfd96d0fcb7ad8e266924f741f52"
 metafile = true
 
 [[files]]
