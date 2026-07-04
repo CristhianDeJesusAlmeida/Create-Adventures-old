@@ -463,7 +463,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-origins-compat.pw.toml"
-hash = "2676f91264a9c0f4cc501e106b8d5b276410955544996f45b9c99fbeee2c2e71"
+hash = "3218ff63291741de52c2a2cd9211b51cbbca305da1f0a45680b02fb5039fc8d4"
 metafile = true
 
 [[files]]
@@ -513,7 +513,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
+hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
@@ -894,6 +894,11 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
+metafile = true
+
+[[files]]
+file = "mods/neo-origins.pw.toml"
+hash = "73487fdb7ed4a8730ab73603f0a522c052a087eaef9e24b5b9ec743bf4e3fcfc"
 metafile = true
 
 [[files]]

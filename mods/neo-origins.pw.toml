@@ -1,0 +1,13 @@
+name = "Neo Origins"
+filename = "neoorigins-2.2.14+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RUtQ9kfe/versions/Eym4Atih/neoorigins-2.2.14%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "b41daa5a963851296fa03ba4c4d2b6dfc44eebbc482fe6a54ce93c4a71b444345e05f6933172ab15e3f53ced89735b50b8558e04b68b69309a625c875128526d"
+
+[update]
+[update.modrinth]
+mod-id = "RUtQ9kfe"
+version = "Eym4Atih"
