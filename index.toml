@@ -106,6 +106,11 @@ hash = "2b02594380f31aa857c89d296afb53bec67621b491956be09a54ab6845552e2a"
 metafile = true
 
 [[files]]
+file = "mods/ae2-jei-integration.pw.toml"
+hash = "491974dc6adba0e893fb755f55dfe833a1076ba49fdf9e4f92b8b9fa069ce9b5"
+metafile = true
+
+[[files]]
 file = "mods/ae2-network-analyser.pw.toml"
 hash = "23ca334019a3e9572ea1c462d5c4e732eb34f657111951cfb781cd52da59b08c"
 metafile = true
@@ -556,6 +561,16 @@ hash = "4c16ee75d3b04443e96d854eec79344293963e9f4beaaf8e7215023e8ef53b88"
 metafile = true
 
 [[files]]
+file = "mods/doespotatotick.pw.toml"
+hash = "13ccaa3d0946105eb4c77b9149169f7013980dd81e1c19a39c86845813c2379a"
+metafile = true
+
+[[files]]
+file = "mods/duplicationless.pw.toml"
+hash = "42ba7699405972f0dcd35e3ec53601203225e17bf86c5d0541707a5899371d53"
+metafile = true
+
+[[files]]
 file = "mods/ec-ars-compat.pw.toml"
 hash = "c32f7ea017903787d7b82d732c3ee3a7f67eceeaa72d70827e0c297b3b8bdfc9"
 metafile = true
@@ -757,7 +772,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "65d7dbf55554eea06332064358bfe6c30f329fed683679b95603c0168a893b07"
+hash = "84cc0d40e518c782dbed6f582163b034d4d7f82d1e41e38dc907ed77e2836eaa"
 metafile = true
 
 [[files]]
