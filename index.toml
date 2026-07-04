@@ -977,46 +977,6 @@ hash = "f4362615b463f2e68e4a9573720ef19d3c483e2c035981791b5834082a3e56be"
 metafile = true
 
 [[files]]
-file = "mods/tensura-boss-structure.pw.toml"
-hash = "88a1ecc215d9baaf04eb5852c14de5f101345ac2cd6909271e1fc10208328c15"
-metafile = true
-
-[[files]]
-file = "mods/tensura-compat-ftb.pw.toml"
-hash = "8bb9febc7d6c86352c4e2da38948699b25ac23578550651d833d7d3af62a54dd"
-metafile = true
-
-[[files]]
-file = "mods/tensura-mysticism.pw.toml"
-hash = "d282390c7d0ba189cbf09e33e9240500365e3624ffa35ae0fc84c22132129f36"
-metafile = true
-
-[[files]]
-file = "mods/tensura-not-enough-bosses.pw.toml"
-hash = "df45720908b1686cd28bbae04ac22e38e0ece562def250686ccf8ca8c83c6179"
-metafile = true
-
-[[files]]
-file = "mods/tensura-reincarnated.pw.toml"
-hash = "2d2dce8a1d3988116fa511bdd2637d3f0f713bce20d13e3b9bd66aca39d8e530"
-metafile = true
-
-[[files]]
-file = "mods/tensura-slimethrone-extras.pw.toml"
-hash = "19e5ab1c4d11fb816e59adb99b8a57485cd4cc3339b561480959eca32f281a5a"
-metafile = true
-
-[[files]]
-file = "mods/tensura-unique-monsters.pw.toml"
-hash = "7ccbead41a5ae6b430fe1081893864da53efd9da64827c50b022ef1b663a23c1"
-metafile = true
-
-[[files]]
-file = "mods/tensuramoreoverlord.pw.toml"
-hash = "d26d5c1922a58f35a8c544fe1549084e04a65807aefac1d466ee883a144599a8"
-metafile = true
-
-[[files]]
 file = "mods/terra-curio.pw.toml"
 hash = "b6fd906ab0f2f0083e18d61e28236f24f73e3679ee1096962ce7f92fa82f95c9"
 metafile = true
