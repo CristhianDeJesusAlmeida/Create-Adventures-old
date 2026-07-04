@@ -811,6 +811,11 @@ hash = "42f793ba7a706070d13406935e0264e2f0ffec8f7a8de56dde2a49b9f265be3a"
 metafile = true
 
 [[files]]
+file = "mods/leaves-be-gone.pw.toml"
+hash = "32551cd3db88210863565b772ee47679cbf1eeff163fb93b9ef84a79fa069496"
+metafile = true
+
+[[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "c27c2b642deba3609c6e5741ee6360cb8d760e5bf5b2595fd4fa01c01dc5f074"
 metafile = true
