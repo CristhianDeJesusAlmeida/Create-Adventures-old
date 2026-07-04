@@ -81,7 +81,7 @@ ServerEvents.recipes(event => {
     ], {
         C: 'create:brass_ingot',
         D: 'minecraft:diamond',
-        M: 'tensura:magic_bottle' 
+        M: 'ars_nouveau:source_gem'
     });
 
 
@@ -94,18 +94,32 @@ ServerEvents.recipes(event => {
     // 💾 4. ENGENHARIA DIGITAL (APPLIED ENERGISTICS 2)
     // =========================================================================
     // Correção: Adicionado 'count: 1' para evitar o erro EncoderException
+    // Primeiro passo: usa o Engineering Press
     event.custom({
         type: "ae2:inscriber",
         mode: "inscribe",
         ingredients: {
             top: { item: "ae2:engineering_processor_press" },       
-            middle: { item: "ae2:printed_engineering_processor" },  
-            bottom: { item: "ae2:silicon_press" }                   
+            middle: { item: "ae2:printed_engineering_processor" }
         },
         result: { 
-            id: "kubejs:kinetic_flux_matrix",
+            id: "kubejs:kinetic_flux_matrix_raw", // item intermediário
             count: 1 
         }                 
+    });
+
+        // Segundo passo: usa o Silicon Press no resultado anterior
+    event.custom({
+        type: "ae2:inscriber",
+        mode: "inscribe",
+        ingredients: {
+            top: { item: "ae2:silicon_press" },       
+            middle: { item: "kubejs:kinetic_flux_matrix_raw" }
+        },
+        result: {
+            id: "kubejs:kinetic_flux_matrix",
+            count: 1 
+        }
     });
 
 });

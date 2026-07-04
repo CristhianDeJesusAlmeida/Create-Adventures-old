@@ -10,7 +10,18 @@ StartupEvents.registry('item', event => {
          .tooltip('§cSuporta pressões extremas e energias colossais.');
 
     // Item para a usar no AE2 (Filtro/Matriz do AE2)
-    event.create('kinetic_flux_matrix')
-         .displayName('Matriz de Fluxo Cinético')
-         .tooltip('§bConverte torque mecânico em dados flutuantes digitais.');
+  
+    // Item intermediário (bruto - saída do primeiro passo da Inscriber)
+    event.create('kubejs:kinetic_flux_matrix_raw')
+        .displayName('Raw Kinetic Flux Matrix')
+        .texture('kubejs:item/kinetic_flux_matrix_raw')
+        .rarity('UNCOMMON');
+
+    // Item final (saída do segundo passo da Inscriber)
+    event.create('kubejs:kinetic_flux_matrix')
+        .displayName('Kinetic Flux Matrix')
+        .texture('kubejs:item/kinetic_flux_matrix')
+        .rarity('RARE')
+        .glow(true); // Deixa o item com brilho encantado para parecer mais poderoso!
+
 });
