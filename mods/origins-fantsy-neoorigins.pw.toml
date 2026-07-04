@@ -1,0 +1,13 @@
+name = "Origins Fantsy for NeoOrigins"
+filename = "Origins-Fantasy-1.21.1-NeoOrigins-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "53175ce765b3b92d3d11ab558be146c21f61d1a3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8317634
+project-id = 1587502

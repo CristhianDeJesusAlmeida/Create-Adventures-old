@@ -1,0 +1,13 @@
+name = "Cataclysmic Arsenal - Epic Fight"
+filename = "CataclysmicArsenal-0.6.1.2+1.21.1[NeoForge].jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "38928dc821674a0af6c8b94cbd7ca07762aa5d50"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8341867
+project-id = 1282968

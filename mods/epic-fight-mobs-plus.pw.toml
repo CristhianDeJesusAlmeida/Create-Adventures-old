@@ -1,0 +1,13 @@
+name = "Epic Fight - Mobs Plus"
+filename = "MobsPlus-NeoForge-EFM-21.17.2-1.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e96825ee22987bd4fdab918a6e75b1086c0a0dd5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8152405
+project-id = 1540142

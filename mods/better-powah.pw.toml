@@ -1,0 +1,13 @@
+name = "better powah"
+filename = "betterpowah-1.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "17c4c2478836c6b8f1ae43f731222580a583343b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8136721
+project-id = 1550248

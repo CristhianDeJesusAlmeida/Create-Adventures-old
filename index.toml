@@ -168,7 +168,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
 
 [[files]]
@@ -232,6 +232,11 @@ hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
 metafile = true
 
 [[files]]
+file = "mods/athena.pw.toml"
+hash = "38bddea8d550568799dd7f208c0bbe10280de3e456016a0d59aa20de112a2345"
+metafile = true
+
+[[files]]
 file = "mods/backpacked.pw.toml"
 hash = "e0a479fef621fd91d0a022358046eb6af947fd5d4191b1286504f6b958605686"
 metafile = true
@@ -259,6 +264,16 @@ metafile = true
 [[files]]
 file = "mods/better-compatibility-checker.pw.toml"
 hash = "7c3b1f4819e8a3b88cadd8ed968d74491c71f504738dd0f2cd60f3ff40d80f72"
+metafile = true
+
+[[files]]
+file = "mods/better-lock-on.pw.toml"
+hash = "ca62ca1a7ef0eddd70dc26c707bb0f41b92aca85c7f7695e5535cccd352e9173"
+metafile = true
+
+[[files]]
+file = "mods/better-powah.pw.toml"
+hash = "51e9a4fe0a55d538390b921488891c9e5689a43c8b98dd6cdce5a6313a03d669"
 metafile = true
 
 [[files]]
@@ -292,6 +307,11 @@ hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
 metafile = true
 
 [[files]]
+file = "mods/cataclysmic-arsenal-epic-fight.pw.toml"
+hash = "ada9280a179a956b6816a327d9f6735b8de10ed0f1fb129d84817a3148679e53"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
@@ -318,7 +338,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
 metafile = true
 
 [[files]]
@@ -442,6 +462,16 @@ hash = "10d3389f72e8e8f78518f5b6786ccec4e62dbad117491d2970e8e1f75e390251"
 metafile = true
 
 [[files]]
+file = "mods/create-origins-compat.pw.toml"
+hash = "2676f91264a9c0f4cc501e106b8d5b276410955544996f45b9c99fbeee2c2e71"
+metafile = true
+
+[[files]]
+file = "mods/create-oritech-compat.pw.toml"
+hash = "5a7ddfa185f32139c04995ea366941975c7dad3fb8bbd0ab7992b139983093fa"
+metafile = true
+
+[[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "faddfa6807d11014c93bbfd8e543e8843e6d44e53f70d54e0b7e3e95766d2021"
 metafile = true
@@ -483,7 +513,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
 
 [[files]]
@@ -513,7 +543,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
@@ -534,6 +564,36 @@ metafile = true
 [[files]]
 file = "mods/epherolib.pw.toml"
 hash = "af8104f6a407333ecbefe9edd73ac873a77f59aed959913607ff808812de47d7"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-first-person-model.pw.toml"
+hash = "7984c0b3994602c1fe6e0cd2cb34270d8894641fec6801e3dc5850897e956984"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-mobs-plus.pw.toml"
+hash = "9b6fee6dc15ec29b882b5765d4db5242356dbd54537b9d9ab772008dbddff164"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-mod.pw.toml"
+hash = "1aa2e2f15057fd26009d094fe21aba13ca2523b1a75c8583e544883f90b44e3e"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-x-better-lock-on-better-third-person-qol-fixes.pw.toml"
+hash = "b5e6bed7c334786c79b9257efcf22f46e61d3664e817294f4839256f8bd11e76"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-x-irons-spells-enhanced-animations.pw.toml"
+hash = "2b6de22fc83231ae7539f2bec064a893e5af6d8ea4ef039e4758d0c9af73af9a"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight.pw.toml"
+hash = "8f25f6d5023d533e0d70b0375c36c176445251f431a9c8ebd63cf7f63e4c31da"
 metafile = true
 
 [[files]]
@@ -602,6 +662,11 @@ hash = "96dcf3ac4d2780468b34de83620540d85e9c37fa8531816c68ee4da5788c4020"
 metafile = true
 
 [[files]]
+file = "mods/ftb-ranks-forge.pw.toml"
+hash = "810e1fce6db6ac0a6bfce460c0908ed8e9b33648fddbb65db849aba368e8d7bc"
+metafile = true
+
+[[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
 metafile = true
@@ -628,7 +693,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
+hash = "65ac18556f91ebb4f303a39731e93e94ffa94ddc690b0fbf35346bdcb3b05919"
 metafile = true
 
 [[files]]
@@ -669,6 +734,16 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
+metafile = true
+
+[[files]]
+file = "mods/irons-lib.pw.toml"
+hash = "1b23f5a7defc103d67d16db0053ff2f6240436bb0d682f760865b590e3416a65"
+metafile = true
+
+[[files]]
+file = "mods/irons-spells-n-spellbooks.pw.toml"
+hash = "459e5a912d2f0115a17acc137a294a76c75de33214137be16a3adca54828564d"
 metafile = true
 
 [[files]]
@@ -717,8 +792,13 @@ hash = "ace749d349728358c3c5eb8fc76aec6b2b15aac2ef0d847ebcc2b6d59fd47963"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-powah.pw.toml"
+hash = "57772f5463d9f5cba29c1831099dffcd29d2008a397493015642486b6d5d9269"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
-hash = "99bea71046529d65463fc12acb505ab363c91133ebbcc1d976e49a5d33150702"
+hash = "018fd970193f808f8c28f873d8b8c69ac9ba134712c7db27fc8d639cb226c9a6"
 metafile = true
 
 [[files]]
@@ -732,8 +812,13 @@ hash = "42f793ba7a706070d13406935e0264e2f0ffec8f7a8de56dde2a49b9f265be3a"
 metafile = true
 
 [[files]]
+file = "mods/lendercataclysm.pw.toml"
+hash = "15d0aa0c6da198fde776ea62dc5f86ab17342d94ddb15ccb73710bf98dacfd6d"
+metafile = true
+
+[[files]]
 file = "mods/lionfish-api.pw.toml"
-hash = "64acab1580ca6edd8b1dd185e914aeee7aa551a88a7cd7f0f9370a82aaadfef6"
+hash = "c27c2b642deba3609c6e5741ee6360cb8d760e5bf5b2595fd4fa01c01dc5f074"
 metafile = true
 
 [[files]]
@@ -812,6 +897,11 @@ hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
 metafile = true
 
 [[files]]
+file = "mods/neoorigins.pw.toml"
+hash = "9d7b82e6ce7addf8cb1aecd97a19fe90310a70ad5daab229274176bc1a9aa1e9"
+metafile = true
+
+[[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "5dc059422613b5645cb00e32d3bfd53de428c4939113d11ce2c844cb54165da6"
 metafile = true
@@ -832,8 +922,28 @@ hash = "206db3fcf91797013f36cfb6964806fbbe12f216564f0b52f849f960ed2d4155"
 metafile = true
 
 [[files]]
+file = "mods/origins-backgrounds-iss-for-neoorigins.pw.toml"
+hash = "4c7f8f6cdda6cf8c80431d9c75c6a391ea086b235d227a6f34ecab7cecda8ddd"
+metafile = true
+
+[[files]]
+file = "mods/origins-fantsy-neoorigins.pw.toml"
+hash = "2ed9da3c616b6148a06c1b0444b9c5ffbdbf76b39ef33cf8c8a46d40b8aab2f0"
+metafile = true
+
+[[files]]
+file = "mods/oritech-black-hole-dislocator.pw.toml"
+hash = "d05929cad08a0e7fcc7a84d16d3433a42aecc506284d52623bd294e32bcee306"
+metafile = true
+
+[[files]]
+file = "mods/oritech-things.pw.toml"
+hash = "8bd5a119e83db21863600941a17cc2d3f5bad348c266f353593035c349dbadf7"
+metafile = true
+
+[[files]]
 file = "mods/oritech.pw.toml"
-hash = "dce2c076f33f3d4be5bf5e5db0ccbc07829db0661fb8c721dea597885127887e"
+hash = "d330d1a88de8a33a9f0f731598b852815dd501d5b713584dcbdd26de16e510e1"
 metafile = true
 
 [[files]]
@@ -863,12 +973,22 @@ metafile = true
 
 [[files]]
 file = "mods/playeranimator.pw.toml"
-hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
+hash = "5b30dafc9e96471978376ee010cec0ddf592377ac94192c9370cb37973e1e95f"
 metafile = true
 
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
+metafile = true
+
+[[files]]
+file = "mods/powah-rearchitected.pw.toml"
+hash = "a6f8726db6be3d6efc3a3561166db9d30d48dc2feef5e5d7e0ecbff86b3a2f82"
+metafile = true
+
+[[files]]
+file = "mods/powahhudfix.pw.toml"
+hash = "779974dc4c366eb3f17d2ae148cd2de824b91813e2f68aba889eb54416cfb6e6"
 metafile = true
 
 [[files]]
@@ -893,7 +1013,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
+hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
 metafile = true
 
 [[files]]
@@ -912,8 +1032,33 @@ hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
 
 [[files]]
+file = "mods/sl-library.pw.toml"
+hash = "f265364ca8cf8a740c0dc2a9fc8127a9992116f6d743d6ccffaf8629bcfe6ece"
+metafile = true
+
+[[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "47f7a98662dff8dae871424d210f1f8144617140a9d84b9f502a6d620c124883"
+metafile = true
+
+[[files]]
+file = "mods/slm-codex.pw.toml"
+hash = "9a415355c8a1beccff79bc81851472afc99b64ffec656dbccccf09ba3cccacf3"
+metafile = true
+
+[[files]]
+file = "mods/slm-elements.pw.toml"
+hash = "1c03e08ea1fed114152d662c47c0485b4e89ace6f5ba52d4b3ca7e8dabdd3c5a"
+metafile = true
+
+[[files]]
+file = "mods/slm-epic-fight.pw.toml"
+hash = "ef3b4b6a54904b4715dddeef334b8759e9fccaa8e93a313a7fe27611e0afe9ad"
+metafile = true
+
+[[files]]
+file = "mods/slm-shader.pw.toml"
+hash = "0b66b07238c6c572f71cef35925df083e933454b6634590008a194be17b1bc22"
 metafile = true
 
 [[files]]

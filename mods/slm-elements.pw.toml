@@ -1,0 +1,13 @@
+name = "SLM: Elements"
+filename = "SLM-Elements-1.0-1.21.1+[NeoForge].jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "63d2c0e7549e155d6c2a837d54a7f53050acaf3f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8321430
+project-id = 1497964

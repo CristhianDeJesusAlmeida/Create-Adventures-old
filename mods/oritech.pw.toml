@@ -3,11 +3,11 @@ filename = "oritech-neoforge-1.21.1-1.2.8.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/4sYI62kA/versions/zCryDJ65/oritech-neoforge-1.21.1-1.2.8.jar"
-hash-format = "sha512"
-hash = "1da6b075b2947294abc96053d60b8d95c8c8023c054904bb905545a7ff20c2491767ad87cf98aec567141ad206cb7549d13e1569b547b4a7e8a0db8292399446"
+hash-format = "sha1"
+hash = "8e72b47adacbe8e250f707ed8f938b698f894681"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "4sYI62kA"
-version = "zCryDJ65"
+[update.curseforge]
+file-id = 8295566
+project-id = 1030830

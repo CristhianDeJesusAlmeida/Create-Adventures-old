@@ -1,0 +1,13 @@
+name = "Create Origins Compat"
+filename = "Create-Origins-Compat-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f7607f19cba35376cdcddcf39f3f102cc722eabf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6227143
+project-id = 1206968

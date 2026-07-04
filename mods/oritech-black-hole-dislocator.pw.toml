@@ -1,0 +1,13 @@
+name = "Oritech Black Hole Dislocator"
+filename = "OritechBlackHoleDislocator-Neoforge-1.21.1-0.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "68660747ae1513695c0d7c3527e59fe03f26001b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7541893
+project-id = 1437730

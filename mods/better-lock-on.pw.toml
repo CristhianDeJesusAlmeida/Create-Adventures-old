@@ -1,0 +1,13 @@
+name = "Epic Fight - Better lock on"
+filename = "betterlockon-2.0.8-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "94926350c5500857097c993e64259a35c93c8eae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8076452
+project-id = 1339577
