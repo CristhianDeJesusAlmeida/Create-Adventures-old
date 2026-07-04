@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
     ], {
         A: 'minecraft:iron_ingot',
         B: 'oritech:machine_core_1',
-        C: 'kubejs:dragon_infused_core'     
+        C: 'kubejs:cataclysmic_mechanism'
     });
 
     // TIER 3: Improved Machine Core
@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
         'ECE'
     ], {
         E: 'oritech:biosteel_ingot',
-        C: 'kubejs:cataclysmic_mechanism',
+        C: 'kubejs:dragon_infused_core',
         M: 'oritech:machine_core_5'
     });
 
