@@ -316,11 +316,6 @@ hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
-file = "mods/chloride.pw.toml"
-hash = "27960ec848346b5f8d9b9221d0344d90200e1bf284474033394dde4b64682cf2"
-metafile = true
-
-[[files]]
 file = "mods/chunk-sending-forge-fabric.pw.toml"
 hash = "3410013291d8e450d526fab9cd0ae64eadf988ee29489a942a3bed9c043819b3"
 metafile = true
@@ -413,11 +408,6 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "5fab8d2e412683dfd72f08cf6750e51b03cb43192e8eb783e962ba28d20978bc"
-metafile = true
-
-[[files]]
-file = "mods/create-better-fps.pw.toml"
-hash = "13481b387ddbf461b1da0ff317df17beafeda05291a586ee717bac23c86a0e74"
 metafile = true
 
 [[files]]
@@ -936,11 +926,6 @@ hash = "5dc059422613b5645cb00e32d3bfd53de428c4939113d11ce2c844cb54165da6"
 metafile = true
 
 [[files]]
-file = "mods/no-see-no-tick.pw.toml"
-hash = "a651cdc9954050ee91291e88c3c546c51758e2803bff785614ee87feb14ae10b"
-metafile = true
-
-[[files]]
 file = "mods/notick.pw.toml"
 hash = "cf4ddcbf50d4164b89acdcd612f416900e8562df11a1ae6bb29a904cd7fb3bb3"
 metafile = true
@@ -1163,11 +1148,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
-metafile = true
-
-[[files]]
-file = "mods/tick-tweaks.pw.toml"
-hash = "1abf9a65d164ed88ad8788e79d2949737fa424ba96817baf0117e8d8d768930b"
 metafile = true
 
 [[files]]
