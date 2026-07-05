@@ -561,11 +561,6 @@ hash = "4c16ee75d3b04443e96d854eec79344293963e9f4beaaf8e7215023e8ef53b88"
 metafile = true
 
 [[files]]
-file = "mods/doespotatotick.pw.toml"
-hash = "13ccaa3d0946105eb4c77b9149169f7013980dd81e1c19a39c86845813c2379a"
-metafile = true
-
-[[files]]
 file = "mods/duplicationless.pw.toml"
 hash = "42ba7699405972f0dcd35e3ec53601203225e17bf86c5d0541707a5899371d53"
 metafile = true
@@ -583,11 +578,6 @@ metafile = true
 [[files]]
 file = "mods/epherolib.pw.toml"
 hash = "af8104f6a407333ecbefe9edd73ac873a77f59aed959913607ff808812de47d7"
-metafile = true
-
-[[files]]
-file = "mods/epic-fight-mobs-plus.pw.toml"
-hash = "9b6fee6dc15ec29b882b5765d4db5242356dbd54537b9d9ab772008dbddff164"
 metafile = true
 
 [[files]]
