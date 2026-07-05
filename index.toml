@@ -806,11 +806,6 @@ hash = "ace749d349728358c3c5eb8fc76aec6b2b15aac2ef0d847ebcc2b6d59fd47963"
 metafile = true
 
 [[files]]
-file = "mods/kubejs-powah.pw.toml"
-hash = "57772f5463d9f5cba29c1831099dffcd29d2008a397493015642486b6d5d9269"
-metafile = true
-
-[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "018fd970193f808f8c28f873d8b8c69ac9ba134712c7db27fc8d639cb226c9a6"
 metafile = true
