@@ -337,7 +337,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
@@ -951,6 +951,11 @@ hash = "a651cdc9954050ee91291e88c3c546c51758e2803bff785614ee87feb14ae10b"
 metafile = true
 
 [[files]]
+file = "mods/notick.pw.toml"
+hash = "cf4ddcbf50d4164b89acdcd612f416900e8562df11a1ae6bb29a904cd7fb3bb3"
+metafile = true
+
+[[files]]
 file = "mods/occultism.pw.toml"
 hash = "e1c71d5a03785519526cbb2c7eed11204cc5ecc1e0192aca58301906abe41961"
 metafile = true
@@ -1168,6 +1173,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+metafile = true
+
+[[files]]
+file = "mods/tick-tweaks.pw.toml"
+hash = "1abf9a65d164ed88ad8788e79d2949737fa424ba96817baf0117e8d8d768930b"
 metafile = true
 
 [[files]]
