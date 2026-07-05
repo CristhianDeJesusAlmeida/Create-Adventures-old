@@ -131,28 +131,13 @@ hash = "ed45c352a49b65c7221e57d979d0c6935522dfef4968aa5b7421f4d3e670ce40"
 metafile = true
 
 [[files]]
+file = "mods/ai-improvements.pw.toml"
+hash = "db026135a8a23b2b660ebbfa8a85d06b26249305b2612bc2fab930e252100890"
+metafile = true
+
+[[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "7e03652d2003566873ab5103454f7c537471d6c2fea1c2f614507b33ef4434f7"
-metafile = true
-
-[[files]]
-file = "mods/apotheosis.pw.toml"
-hash = "fee5ee9d360181e358b02459530b30e8148d7193a6064ec31dbcfcc447ca59ce"
-metafile = true
-
-[[files]]
-file = "mods/apothic-attributes.pw.toml"
-hash = "2a9d96fe08eef2570e703eace50ec5d5d35323bf6d480404c0fc490d7a75e3b4"
-metafile = true
-
-[[files]]
-file = "mods/apothic-enchanting.pw.toml"
-hash = "c3d636a31314ef7faef5822f9f7d90f2026a319626415b51b6af78b9ecec24f1"
-metafile = true
-
-[[files]]
-file = "mods/apothic-spawners.pw.toml"
-hash = "81ab12ddbd603d88eb7b5c3b8e257d551b3612bcffe82a21439f8fe8a887fbd7"
 metafile = true
 
 [[files]]
@@ -248,6 +233,11 @@ metafile = true
 [[files]]
 file = "mods/athena.pw.toml"
 hash = "38bddea8d550568799dd7f208c0bbe10280de3e456016a0d59aa20de112a2345"
+metafile = true
+
+[[files]]
+file = "mods/ato.pw.toml"
+hash = "2caa0a932f416d3a6d6dd2921840856395b56b04417292938ddb1796b72bf448"
 metafile = true
 
 [[files]]
@@ -351,6 +341,11 @@ hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
 metafile = true
 
 [[files]]
+file = "mods/clumps.pw.toml"
+hash = "2e6a2f8c477128a76ef059dfef7ca8a1befa2ae0ebe7ae2171e716f0c905cd00"
+metafile = true
+
+[[files]]
 file = "mods/codechicken-lib.pw.toml"
 hash = "7dfcb98086a3504e8ed24f9f64528a2435fdc19f8fb232d99aa46b7dc2c3aacb"
 metafile = true
@@ -418,6 +413,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "5fab8d2e412683dfd72f08cf6750e51b03cb43192e8eb783e962ba28d20978bc"
+metafile = true
+
+[[files]]
+file = "mods/create-better-fps.pw.toml"
+hash = "13481b387ddbf461b1da0ff317df17beafeda05291a586ee717bac23c86a0e74"
 metafile = true
 
 [[files]]
@@ -581,6 +581,11 @@ hash = "302bd3b2339329f655f6bd46c3fe198a3bdd2eff755f9b64b2c1ebc10d3399c0"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.pw.toml"
+hash = "346f28e2ec19543a6b410bf2cf5389401bc6d1aa0189e39d07bf11d64d8bd321"
+metafile = true
+
+[[files]]
 file = "mods/epherolib.pw.toml"
 hash = "af8104f6a407333ecbefe9edd73ac873a77f59aed959913607ff808812de47d7"
 metafile = true
@@ -626,13 +631,33 @@ hash = "0670ca65c7208aa8211883fae30c935f53cad38196aac46723b10e7bbc695113"
 metafile = true
 
 [[files]]
+file = "mods/falling-tree.pw.toml"
+hash = "5fe387bcad2d72c9bdd7047c19fed3959dcc65e2615e188ae743c517c08209df"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
 metafile = true
 
 [[files]]
+file = "mods/fast-async-world-save-forge-fabric.pw.toml"
+hash = "49a15bf3a496e885d01e6dd4bf3e08158c9b5c2998027083c3248a6defbce974"
+metafile = true
+
+[[files]]
+file = "mods/fast-leaf-decay.pw.toml"
+hash = "e5c471aaab9047178ad25e91d28240fefd7b6e48d52af4274bc53239eb1da8c6"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/fix-gpu-memory-leak.pw.toml"
+hash = "962f814c2d04b4e878ef6241c56658b4b71ef513fc1c4963ddb22c0fe17a1de9"
 metafile = true
 
 [[files]]
@@ -887,7 +912,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "983d6ab9d9a7d40031f1789f5ae018cccb889832ac8ce741df60a9d8e5f42817"
+hash = "25fc0896358f8f3e642d1a335085e2aa39ebb4f4f56e28a84546fbd526837e64"
 metafile = true
 
 [[files]]
@@ -1001,16 +1026,6 @@ hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
 metafile = true
 
 [[files]]
-file = "mods/powah-rearchitected.pw.toml"
-hash = "a6f8726db6be3d6efc3a3561166db9d30d48dc2feef5e5d7e0ecbff86b3a2f82"
-metafile = true
-
-[[files]]
-file = "mods/powahhudfix.pw.toml"
-hash = "779974dc4c366eb3f17d2ae148cd2de824b91813e2f68aba889eb54416cfb6e6"
-metafile = true
-
-[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6be463e57622036302e6555834d4b915e9d0407ce646a20edc770901111eca0d"
 metafile = true
@@ -1048,6 +1063,11 @@ metafile = true
 [[files]]
 file = "mods/shatterbyte-lib.pw.toml"
 hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
+metafile = true
+
+[[files]]
+file = "mods/simple-backups.pw.toml"
+hash = "0d76b6f0f8b2cbe44931c7094c416aab1d1534c47cbee499f01c546e5e09b42b"
 metafile = true
 
 [[files]]
