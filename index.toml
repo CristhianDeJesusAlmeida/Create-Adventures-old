@@ -276,11 +276,6 @@ hash = "ca62ca1a7ef0eddd70dc26c707bb0f41b92aca85c7f7695e5535cccd352e9173"
 metafile = true
 
 [[files]]
-file = "mods/better-powah.pw.toml"
-hash = "51e9a4fe0a55d538390b921488891c9e5689a43c8b98dd6cdce5a6313a03d669"
-metafile = true
-
-[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
 metafile = true
