@@ -266,6 +266,11 @@ hash = "93c4acd165a291c6d1e69c27b05b2747afc926b38a414712263fbc95f42da323"
 metafile = true
 
 [[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "c913f2cef7388786d02824ba6000c41608785be74fbc6f04704bef18f7cc73c6"
+metafile = true
+
+[[files]]
 file = "mods/better-compatibility-checker.pw.toml"
 hash = "7c3b1f4819e8a3b88cadd8ed968d74491c71f504738dd0f2cd60f3ff40d80f72"
 metafile = true
@@ -296,8 +301,18 @@ hash = "be92440f9df0b43195a182f7073765220c43a3425d807784e2cde3a957ae1950"
 metafile = true
 
 [[files]]
+file = "mods/bossesrise.pw.toml"
+hash = "41679608577cd9aadf512999bdeb4690bce62393bdab682ec9c5cc306650c947"
+metafile = true
+
+[[files]]
 file = "mods/brutal-bosses-dungeon.pw.toml"
 hash = "67cf35eb95a50f98225e443479652d30268a8c344194e7b93175272cf3bc9bf0"
+metafile = true
+
+[[files]]
+file = "mods/c2me.pw.toml"
+hash = "fd617164fbf0d064f8b544c83e5184cfd2a00774af7ea3a8a02addd764138714"
 metafile = true
 
 [[files]]
@@ -821,13 +836,18 @@ hash = "32551cd3db88210863565b772ee47679cbf1eeff163fb93b9ef84a79fa069496"
 metafile = true
 
 [[files]]
+file = "mods/legendary-survival-overhaul.pw.toml"
+hash = "0d717f2837eec7f080109b809b5ed3dc8f935853dcc907a07ee9a5ce2f01c730"
+metafile = true
+
+[[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "c27c2b642deba3609c6e5741ee6360cb8d760e5bf5b2595fd4fa01c01dc5f074"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
+hash = "fb6171c8f7ff0d83513b3f75ee5d7a98659559c427d79fb69eb0219639af8a37"
 metafile = true
 
 [[files]]
