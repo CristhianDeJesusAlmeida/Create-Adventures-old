@@ -1201,6 +1201,11 @@ hash = "a982374f5c79d51cfdc24c3d59221bdc30a2f4da663703960326b7332c03f374"
 metafile = true
 
 [[files]]
+file = "mods/vulkan-reforged.pw.toml"
+hash = "ca6e4b051d9bf08bd2996f7ca7dbead3153e3d4b20011f5464de48f0939f5a58"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true
@@ -1223,6 +1228,11 @@ metafile = true
 [[files]]
 file = "packwiz-installer-bootstrap.jar"
 hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
+
+[[files]]
+file = "resourcepacks/enhanced-boss-bars.pw.toml"
+hash = "ba33081906bd9d68f3d809da64a53cf84ce6bc499fbddf67c5d695aba8152d59"
+metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
