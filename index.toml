@@ -10,11 +10,27 @@ hash = "7895a8cd4d22ff2e365c80f94ac7089a8616960af35859d7656c483399c51bd5"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "3d55e5610952ef850b36b339f376ec4fa1d58f0270de1107ad671ab3e0498e74"
+hash = "b0f5cb633bab382a4e3542146de5e86176755ca3d5de3c7d5851f88f606d12ac"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/pt_br.json"
-hash = "bfb3b41b99b7ce78381662211fbc8c2f0be14d97b2b62c3991ea3dd84cc9517c"
+hash = "0eb5824625f62238f731866ce26a8ea3d77222ccaa6cf4c0f245935e683fc3f4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/gui/quests/banner_ae2.png"
+hash = "2938749804da46102136ba3b8d37b08208e7c3adcba12248fe139ff8a53cac5a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/gui/quests/banner_ars_noveau.png"
+hash = "bc22f067f0c520ab1274247fb2b7eb3905f937c51cb3aa65c4830da1a4d59368"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/gui/quests/banner_create.png"
+hash = "a81f153c3b0b4993e5b8cc2530e7fd2ea4e3d3c6bd03a470a1d09448a9c67a04"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/gui/quests/banner_oritech.png"
+hash = "fa881c5c4b0ee5122c4782900f47d740ff6e48579dc5f5975751d26bc71355e7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/cataclysmic_mechanism.png"
@@ -70,7 +86,7 @@ hash = "a33146c3a1a2b613816a276daa7eecc82df6dac882424b37e30d0a23442bcb32"
 
 [[files]]
 file = "kubejs/startup_scripts/custom_items.js"
-hash = "9055685ca31127a1b5c51df08d0f17455ba0bf5656aaebdb4aa3d10371a49786"
+hash = "2032631b52c0e6142ffdb347c1c06a1be23c454374539016cff7f5540b50e550"
 
 [[files]]
 file = "kubejs/startup_scripts/stack.js"

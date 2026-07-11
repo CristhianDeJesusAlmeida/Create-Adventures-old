@@ -1,5 +1,13 @@
 {
+  "item.kubejs.dragon_infused_core": "Dragon Infused Mechanical Core",
+  "item.kubejs.dragon_infused_core.tooltip": "Elemental energy stabilized by mechanical engineering.",
+  
   "item.kubejs.cataclysmic_mechanism": "Cataclysmic Mechanism",
-  "item.kubejs.dragon_infused_core": "Dragon Infused Core",
-  "item.kubejs.kinetic_flux_matrix": "Kinetic Flux Matrix"
+  "item.kubejs.cataclysmic_mechanism.tooltip": "Withstands extreme pressures and colossal energies.",
+  
+  "item.kubejs.kinetic_flux_matrix_raw": "Raw Kinetic Flux Matrix",
+  "item.kubejs.kinetic_flux_matrix_raw.tooltip": "A raw matrix that can store kinetic energy, but is unstable and volatile.",
+  
+  "item.kubejs.kinetic_flux_matrix": "Kinetic Flux Matrix",
+  "item.kubejs.kinetic_flux_matrix.tooltip": "A powerful matrix for storing and manipulating kinetic energy."
 }

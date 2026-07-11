@@ -1,5 +1,13 @@
 {
+  "item.kubejs.dragon_infused_core": "Núcleo Mecânico Infundido com Dragão",
+  "item.kubejs.dragon_infused_core.tooltip": "Energia elemental estabilizada por engenharia mecânica.",
+  
   "item.kubejs.cataclysmic_mechanism": "Mecanismo Cataclísmico",
-  "item.kubejs.dragon_infused_core": "Núcleo Infundido com Dragão",
-  "item.kubejs.kinetic_flux_matrix": "Matriz de Fluxo Cinético"
+  "item.kubejs.cataclysmic_mechanism.tooltip": "Suporta pressões extremas e energias colossais.",
+  
+  "item.kubejs.kinetic_flux_matrix_raw": "Matriz de Fluxo Cinético Bruta",
+  "item.kubejs.kinetic_flux_matrix_raw.tooltip": "Uma matriz bruta que pode armazenar energia cinética, mas é instável e volátil.",
+  
+  "item.kubejs.kinetic_flux_matrix": "Matriz de Fluxo Cinético",
+  "item.kubejs.kinetic_flux_matrix.tooltip": "Uma matriz poderosa para armazenar e manipular energia cinética."
 }
