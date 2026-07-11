@@ -57,16 +57,12 @@ file = "kubejs/server_scripts/create_wrench.js"
 hash = "cd0e8e1ccf13d7300b752604faf2b2ad8d7edd64dc6e5f4c33a9d7d04952b2f8"
 
 [[files]]
-file = "kubejs/server_scripts/custom_progression.js"
-hash = "f1d30b81afef4f3913e1e2b2bcd1773f5aa175ee8029ba08d89d4fc63a5f2bcc"
-
-[[files]]
 file = "kubejs/server_scripts/loot_balance.js"
 hash = "d88074621caed90753aafd46fadd2a7176203c067a05bc1e1df17c8853196a1e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_add.js"
-hash = "d1915c6d74778b07d9dd1c7a2740fe95aaf837cd7cf8322e5de15d7675db6dee"
+hash = "84a0d73d08c8d986e6754395e762442abf4a15830bb7c14d798f78dd007e246c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_remove.js"
