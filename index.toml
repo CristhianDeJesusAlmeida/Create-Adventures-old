@@ -1096,6 +1096,11 @@ hash = "75a42a9eba356b81f33bb160c5da533e7fdf90b478b43bc463d37264c47bcf4e"
 metafile = true
 
 [[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "c490445e40a84c9e19bd3d3a7c8e8b9709b8cea0346a307eb7fb8a32a72a9504"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "c9291e44e1fd34eddbc1a2a9d69a90cb6c29d214abe4d3f282d9eaed62fa3416"
 metafile = true
@@ -1193,11 +1198,6 @@ metafile = true
 [[files]]
 file = "mods/vanilla-loot-addon-for-loot-integrations.pw.toml"
 hash = "a982374f5c79d51cfdc24c3d59221bdc30a2f4da663703960326b7332c03f374"
-metafile = true
-
-[[files]]
-file = "mods/vulkan-reforged.pw.toml"
-hash = "ca6e4b051d9bf08bd2996f7ca7dbead3153e3d4b20011f5464de48f0939f5a58"
 metafile = true
 
 [[files]]
