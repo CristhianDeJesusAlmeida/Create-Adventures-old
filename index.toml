@@ -256,11 +256,6 @@ hash = "38bddea8d550568799dd7f208c0bbe10280de3e456016a0d59aa20de112a2345"
 metafile = true
 
 [[files]]
-file = "mods/ato.pw.toml"
-hash = "2caa0a932f416d3a6d6dd2921840856395b56b04417292938ddb1796b72bf448"
-metafile = true
-
-[[files]]
 file = "mods/backpacked.pw.toml"
 hash = "e0a479fef621fd91d0a022358046eb6af947fd5d4191b1286504f6b958605686"
 metafile = true
@@ -348,11 +343,6 @@ metafile = true
 [[files]]
 file = "mods/chunk-sending-forge-fabric.pw.toml"
 hash = "3410013291d8e450d526fab9cd0ae64eadf988ee29489a942a3bed9c043819b3"
-metafile = true
-
-[[files]]
-file = "mods/clavis.pw.toml"
-hash = "e23bbe0380f7a11a679106e06dee17ac7a6f88dd22a290d8b8824351161f0dae"
 metafile = true
 
 [[files]]
