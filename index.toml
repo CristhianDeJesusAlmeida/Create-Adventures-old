@@ -546,6 +546,11 @@ hash = "28e720db43464fe32b9ce591fb02b824ebf691c578fb694f87a98421d3207022"
 metafile = true
 
 [[files]]
+file = "mods/creeper-no-break-blocks.pw.toml"
+hash = "ef763fc43fabf2a9bd35407f72743a73f281a49d9ab4d2b19b1cd08ededd4026"
+metafile = true
+
+[[files]]
 file = "mods/croptopia-delight.pw.toml"
 hash = "7337e191838e7563878f6ec1380c68a1c491fbdbe304b31e7c8438bf61910cef"
 metafile = true

@@ -1,0 +1,13 @@
+name = "Creeper no Break Blocks"
+filename = "nocreeperexplosion-1.21-1.21.5-1.0.0+neoforge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/ptis34fZ/versions/j06qLaSL/nocreeperexplosion-1.21-1.21.5-1.0.0%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "11edd6209c5484bd1fda840df241719670b2ac7540261e197ba4792ee5b7a2b9d6e9763aa80e45437336a1d502b5e94523ab12edf4c47e0e2551c9edd71fddd5"
+
+[update]
+[update.modrinth]
+mod-id = "ptis34fZ"
+version = "j06qLaSL"
