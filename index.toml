@@ -879,7 +879,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "4873340b141a855473ad93c16b01f758269a1060009a2256d32afbc439f2759e"
+hash = "8735b4a90a4c59db419973991b87ab294c12f7ba869a362ef87ec192ef379b0a"
 metafile = true
 
 [[files]]
@@ -1004,7 +1004,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "018eeaa17d34a6010be48e946ad26973e24e125cfdf6f87cbd79f0cd7d5901ce"
+hash = "812506fd59ed30da2b8223f349efb6f550647e07cffcb627dd86590629ebaad4"
 metafile = true
 
 [[files]]
@@ -1054,7 +1054,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "b586f666162c916d768532cbb98f390aa66f4998ca9ab0999bc4a9b7de5bb83f"
+hash = "5a59ebe515dbf2b637ac23bedeb33e545675668a0a454c5d6edd4d207a458844"
 metafile = true
 
 [[files]]
@@ -1269,7 +1269,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "f4362615b463f2e68e4a9573720ef19d3c483e2c035981791b5834082a3e56be"
+hash = "28e1627fe3182a3b4b2cbb2a31fcbf2269192dea1d4b576f78702d8fcc199d6f"
 metafile = true
 
 [[files]]
