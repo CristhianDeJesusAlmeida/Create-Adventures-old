@@ -9,6 +9,11 @@ file = "config/ftbquest/index.snbt"
 hash = "7895a8cd4d22ff2e365c80f94ac7089a8616960af35859d7656c483399c51bd5"
 
 [[files]]
+file = "config/paxi/datapacks/creeper-fireworks.pw.toml"
+hash = "ed5712ef90e58a8f67b0359261e702bc4fdd9fd21b6fc1d8a82210f3078c3536"
+metafile = true
+
+[[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
 hash = "b0f5cb633bab382a4e3542146de5e86176755ca3d5de3c7d5851f88f606d12ac"
 
@@ -595,11 +600,6 @@ metafile = true
 [[files]]
 file = "mods/createbetterfps.pw.toml"
 hash = "28e720db43464fe32b9ce591fb02b824ebf691c578fb694f87a98421d3207022"
-metafile = true
-
-[[files]]
-file = "mods/creeper-no-break-blocks.pw.toml"
-hash = "ef763fc43fabf2a9bd35407f72743a73f281a49d9ab4d2b19b1cd08ededd4026"
 metafile = true
 
 [[files]]
