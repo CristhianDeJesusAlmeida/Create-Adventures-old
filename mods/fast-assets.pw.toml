@@ -1,0 +1,13 @@
+name = "Fast Assets"
+filename = "FastAssetsLoad-NeoForge-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Yv9cMBq6/versions/SNouGgzI/FastAssetsLoad-NeoForge-1.21.1.jar"
+hash-format = "sha512"
+hash = "d06e81016d7fbd9ac8826937859a638737e274294a1ef8caa99950a5ad2c138ff1da5d1aed59cbaad92c88c9918c9f9500ee1da8f339da9ebde4ab70920a8d37"
+
+[update]
+[update.modrinth]
+mod-id = "Yv9cMBq6"
+version = "SNouGgzI"
