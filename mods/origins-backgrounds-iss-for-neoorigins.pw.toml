@@ -1,13 +1,13 @@
 name = "Origins: Backgrounds ISS for NeoOrigins"
-filename = "Origins-ISS-Backgrounds-1.21.1-NeoOrigins-1.0.0.jar"
+filename = "Origins-ISS-Backgrounds-1.21.1-NeoOrigins-1.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "273d3cb0eb1ad2e4c3beac90aabb9ff1ec8fc4c8"
+hash = "82cb8d24a5dc01c871afd9dfa69a56127293999b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8340308
+file-id = 8409604
 project-id = 1592103

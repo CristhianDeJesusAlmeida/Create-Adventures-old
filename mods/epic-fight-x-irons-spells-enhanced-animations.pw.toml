@@ -1,13 +1,13 @@
 name = "Epic Fight x Iron's Spells: Enhanced Animations"
-filename = "efiscompat-3.0.0.jar"
+filename = "efiscompat-3.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "367eb418fa0754d79d6a24edf49821f9010a6a2c"
+hash = "4250e1c65732d70d1091cc50b84a91b6ed5b2b3f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8179558
+file-id = 8372294
 project-id = 1109064
