@@ -598,6 +598,11 @@ hash = "28e720db43464fe32b9ce591fb02b824ebf691c578fb694f87a98421d3207022"
 metafile = true
 
 [[files]]
+file = "mods/creeperconfetti+.pw.toml"
+hash = "e74117882357e5665631dec329bce153c78ea1d428b3b5405483099289d88b89"
+metafile = true
+
+[[files]]
 file = "mods/croptopia-delight.pw.toml"
 hash = "7337e191838e7563878f6ec1380c68a1c491fbdbe304b31e7c8438bf61910cef"
 metafile = true
