@@ -1,12 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "capitulo_1"
+	group: ""
+	id: "4A7B2C9E1D8F3A60"
+	order_index: 0
+	quest_links: [ ]
+	title: "Introdução"
+	icon: "minecraft:compass"
 	quests: [
 		{
+			title: "Bem-vindo ao Create Adventures!"
+			icon: { id: "minecraft:compass" }
 			id: "1000000000000001"
-			icon: {
-				id: "minecraft:compass"
-			}
 			x: -2.0d
 			y: 0.0d
-			title: "Bem-vindo ao Create Adventures!"
 			description: ["§aA Grande Fusão de Tecnologias§r\n\nEste modpack foi projetado como uma jornada evolutiva única: você começará usando força física e engrenagens rudimentares, passará pela era industrial do aço e do diesel, eletricidade por redes de alta voltagem, até alcançar o misticismo e a física nuclear.\n\n§eDiretriz de Jogo:§r As receitas principais foram profundamente modificadas. Fique atento às linhas e ramificações deste livro; você precisará dominar um mod para conseguir os componentes estruturais necessários para abrir o próximo!"]
 			tasks: [{
 				id: "2000000000000001"
@@ -15,13 +23,11 @@
 			}]
 		}
 		{
+			title: "Combate Avançado (Epic Fight)"
+			icon: { id: "minecraft:iron_sword" }
 			id: "1000000000000002"
-			icon: {
-				id: "minecraft:iron_sword"
-			}
 			x: 2.0d
 			y: 0.0d
-			title: "Combate Avançado (Epic Fight)"
 			description: ["§cRPG de Ação em 3D§r\n\nO combate convencional do Minecraft foi completamente substituído pelo §eEpic Fight Mod§r.\n\n1. Aperte §6[R]§r para alternar entre o Modo de Construção e o Modo de Combate.\n2. No modo de combate, seus ataques ganham combos tridimensionais, peso e impacto real.\n3. Segure o clique para desferir ataques pesados e use §6[Espaço]§r durante a animação de um monstro para esquivar e rolar!"]
 			tasks: [{
 				id: "2000000000000002"
@@ -30,13 +36,11 @@
 			}]
 		}
 		{
+			title: "A Base Mecânica (Create)"
+			icon: { id: "create:large_cogwheel" }
 			id: "1000000000000003"
-			icon: {
-				id: "create:large_cogwheel"
-			}
 			x: -2.0d
 			y: 1.5d
-			title: "A Base Mecânica (Create)"
 			description: ["§6O Poder do Movimento (Create)§r\n\nSua primeira automação será puramente física. O §eCreate§r não utiliza fios ou eletricidade, apenas força rotacional cinemática e torque.\n\n2. Você construirá moinhos, esteiras e prensas mecânicas.\n\n§dDica de Ouro:§r Segure a tecla §6[W]§r em cima de qualquer item do Create no inventário para abrir o menu §aPonder§r, um tutorial visual interativo em 3D integrado ao jogo!"]
 			tasks: [{
 				id: "2000000000000003"
@@ -45,13 +49,11 @@
 			}]
 		}
 		{
+			title: "Sobrevivência Realista (Sede e Clima)"
+			icon: { id: "minecraft:water_bucket" }
 			id: "1000000000000004"
-			icon: {
-				id: "minecraft:water_bucket"
-			}
 			x: 2.0d
 			y: 1.5d
-			title: "Sobrevivência Realista (Sede e Clima)"
 			description: ["§4Corpo, Temperatura e Sede§r\n\nGraças ao mod §eLegendary Survival Overhaul§r, o ambiente ao seu redor é hostil.\n\n1. §bSede:§r Nunca beba água direto de rios ou poças, ou você ficará doente. Purifique-a com filtros ou fervura.\n2. §cTemperatura:§r Ficar perto de fornos industriais ou em desertos vai superaquecer seu corpo. Cavernas profundas vão te congelar.\n3. Armaduras pesadas alteram drasticamente sua regulação térmica. Monitore seus indicadores!"]
 			tasks: [{
 				id: "2000000000000004"
@@ -60,14 +62,12 @@
 			}]
 		}
 		{
+			title: "A Era do Carvão e do Aço (Immersive Engineering)"
+			icon: { id: "immersiveengineering:connector" }
 			id: "1000000000000005"
-			icon: {
-				id: "immersiveengineering:connector"
-			}
 			x: -2.0d
 			y: 3.0d
-			title: "A Era do Carvão e do Aço (Immersive Engineering)"
-			description: ["§eIndústria Pesada (Immersive Engineering)§r\n\nSua transição para a eletricidade começará de forma rústica. O §eImmersive§r traz a estética da revolução industrial com fiações elétricas aéreas expostas e grandes estruturas multiblocos.\n\nVocê criará fornos de coque, dínamos cinéticos e prensas pesadas para moldar chapas e fios de metal. Cuidado: encostar em cabos de alta voltagem desencapados sem proteção causará um choque letal!"]
+			description: ["§eIndústria Pesada (Immersive Engineering)§r\n\nSua transição para a eletricidade começará de forma rústica. O §eImmersive§r traz a estética da revolução industrial com fiações elétricas aéreas expostas e grandes estruturas multiblocos.\n\nVocê criará fornos de coque, dínamos cinéticos e prensas pesadas para moldar chapas e fios de metal. Cuidado: encostar in cabos de alta voltagem desencapados sem proteção causará um choque letal!"]
 			tasks: [{
 				id: "2000000000000005"
 				type: "checkmark"
@@ -75,13 +75,11 @@
 			}]
 		}
 		{
+			title: "Magia de Linha de Frente (Iron's Spells)"
+			icon: { id: "irons_spells:scroll" }
 			id: "1000000000000006"
-			icon: {
-				id: "irons_spells:scroll"
-			}
 			x: 2.0d
 			y: 3.0d
-			title: "Magia de Linha de Frente (Iron's Spells)"
 			description: ["§bFeitiçaria Pragmática e de Combate§r\n\nO mod §eIron's Spells 'n' Books§r traz um sistema massivo de magias de combate RPG para o seu jogo.\n\nVocê coletará tintas, papéis especiais e runas elementais para escrever seus próprios pergaminhos e livros de feitiços. Use magias de fogo, gelo, sangue e teletransporte para derrotar os bosses implacáveis do Cataclysm que guardam as estruturas do mundo!"]
 			tasks: [{
 				id: "2000000000000006"
@@ -90,14 +88,12 @@
 			}]
 		}
 		{
+			title: "Alta Voltagem Dinâmica (Electrodynamics)"
+			icon: { id: "electrodynamics:wireinsulatedcopper" }
 			id: "1000000000000007"
-			icon: {
-				id: "electrodynamics:wireinsulatedcopper"
-			}
 			x: -2.0d
 			y: 4.5d
-			title: "Alta Voltagem Dinâmica (Electrodynamics)"
-			description: ["§6Engenharia Química e Redes de Força§r\n\nQuando a fiação rústica do Immersive não for suficiente, você evoluirá para o §eElectrodynamics§r. Este mod introduces sistemas elétricos complexos baseados em Voltagem (V) e Corrente (A).\n\nVocê precisará gerenciar transformadores para não explodir suas máquinas e construirá linhas de processamento químico de minérios de altíssimo rendimento para triplicar seus recursos."]
+			description: ["§6Engenharia Química e Redes de Força§r\n\nQuando a fiação rústica do Immersive não for suficiente, você evoluirá para o §eElectrodynamics§r. Este mod introduces sistemas elétricos complexos baseados em Voltagem (V) e Corrente (A).\n\nVocê precisará gerenciar transformadores para não explodir suas máquinas e construirá lines de processamento químico de minérios de altíssimo rendimento para triplicar seus recursos."]
 			tasks: [{
 				id: "2000000000000007"
 				type: "checkmark"
@@ -105,13 +101,11 @@
 			}]
 		}
 		{
+			title: "Pactos Cósmicos (Occultism)"
+			icon: { id: "occultism:chalk_purple" }
 			id: "1000000000000008"
-			icon: {
-				id: "occultism:chalk_purple"
-			}
 			x: 2.0d
 			y: 4.5d
-			title: "Pactos Cósmicos (Occultism)"
 			description: ["§5O Poder do Outro Lado (Occultism)§r\n\nO §eOccultism§r permite que você realize rituais complexos usando gizes arcanos, velas e sacrifícios para rasgar o tecido da realidade.\n\nVocê invocará demônios e espíritos interdimensionais que trabalharão para você: gnomos mineiros que extraem recursos infinitos do vazio ou gárgulas de transporte que movem seus itens instantaneamente através da fábrica!"]
 			tasks: [{
 				id: "2000000000000008"
@@ -120,13 +114,11 @@
 			}]
 		}
 		{
+			title: "Automação Futurista (Oritech & Actually Additions)"
+			icon: { id: "oritech:machine_core_1" }
 			id: "1000000000000009"
-			icon: {
-				id: "oritech:machine_core_1"
-			}
 			x: -2.0d
 			y: 6.0d
-			title: "Automação Futurista (Oritech & Actually Additions)"
 			description: ["§eAlta Tecnologia Elétrica (Oritech)§r\n\nO §eOritech§r representa o ápice da indústria de blocos únicos de processamento ultrarrápido. A progressão dele gira em torno de evoluir seus §6Machine Cores (Tiers 1 ao 7)§r.\n\nJunto com os lasers de reconstrução molecular do §6Actually Additions§r, você criará fábricas limpas, geradores a combustível líquido superaquecido e lasers industriais automatizados por computadores."]
 			tasks: [{
 				id: "2000000000000009"
@@ -135,13 +127,11 @@
 			}]
 		}
 		{
+			title: "Níveis de Mundo e Relíquias (Apotheosis)"
+			icon: { id: "apotheosis:scrap_tome" }
 			id: "1000000000000010"
-			icon: {
-				id: "apotheosis:scrap_tome"
-			}
 			x: 2.0d
 			y: 6.0d
-			title: "Níveis de Mundo e Relíquias (Apotheosis)"
 			description: ["§dEvolução de Mundo e Afixos (Apotheosis)§r\n\nConforme você avança nas eras tecnológicas, o próprio mundo sobe de nível (**World Tiers**). Os monstros nascerão mais inteligentes, rápidos e com armaduras mágicas.\n\nBosses elites nascerão no mapa acompanhados de raios. Derrotá-los garante o drop de armas e equipamentos com §aAfixos de RPG§r (Raro, Épico, Místico), que podem ter seus atributos tunados em bancadas de forja!"]
 			tasks: [{
 				id: "0AB26F280C438841"
@@ -150,14 +140,12 @@
 			}]
 		}
 		{
+			title: "A Mente Digital da Fábrica (AE2)"
+			icon: { id: "ae2:crafting_terminal" }
 			id: "1000000000000011"
-			icon: {
-				id: "ae2:crafting_terminal"
-			}
 			x: -2.0d
 			y: 7.5d
-			title: "A Mente Digital da Fábrica (AE2)"
-			description: ["§2Armazenamento e Logística Digital§r\n\nProduzir milhares de lingotes e poções por minuto criará um caos logístico. O §eApplied Energistics 2§r resolve isso transformando matéria física em dados digitais armazenados em disquetes dentro de uma rede de cabos inteligentes.\n\nVocê interligará os estoques do §6Functional Storage§r e suas máquinas automáticas em um terminal central capaz de fazer auto-crafting de qualquer item do jogo."]
+			description: ["§2Armazenamento e Logística Digital§r\n\nProduzir milhares de lingotes e poções por minuto criará um caos logístico. O §eApplied Energistics 2§r resolve isso transformando matéria física in dados digitais armazenados em disquetes dentro de uma rede de cabos inteligentes.\n\nVocê interligará os estoques do §6Functional Storage§r e suas máquinas automáticas em um terminal central capaz de fazer auto-crafting de qualquer item do jogo."]
 			tasks: [{
 				id: "2000000000000011"
 				type: "checkmark"
@@ -165,13 +153,11 @@
 			}]
 		}
 		{
+			title: "A Singularidade Atômica (Nuclear Science)"
+			icon: { id: "nuclearscience:uranium_ore" }
 			id: "1000000000000012"
-			icon: {
-				id: "nuclearscience:uranium_ore"
-			}
 			x: 2.0d
 			y: 7.5d
-			title: "A Singularidade Atômica (Nuclear Science)"
 			description: ["§cO Ápice Tecnológico (Nuclear Science)§r\n\nO objetivo final absoluto de toda a sua infraestrutura industrial. O mod §eNuclear Science§r traz a física nuclear para o Minecraft.\n\nVocê construirá centrífugas de enriquecimento de Urânio, reatores de fissão e reatores de fusão quântica de antimatéria. Essa tecnologia fornece energia elétrica infinita para o seu mapa, mas um erro de cálculo na refrigeração ou na fiação pode causar um §4colapso nuclear devastador§r na sua base!"]
 			tasks: [{
 				id: "2000000000000012"
@@ -180,3 +166,4 @@
 			}]
 		}
 	]
+}
