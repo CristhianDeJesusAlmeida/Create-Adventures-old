@@ -1,12 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/ftbquest/chapters/capitulo_1.sbnt"
-hash = "15a1e5d327583d3c56d9d7516ddb2a7c2a0e2b417740eaa16a6d50197698efc2"
-
-[[files]]
-file = "config/ftbquest/index.snbt"
-hash = "7895a8cd4d22ff2e365c80f94ac7089a8616960af35859d7656c483399c51bd5"
+file = "config/ftbquest/chapters/capitulo_1.snbt"
+hash = "22b9705428b22f318508d47497ec0a39b23afb78eab5a45bc469a9979ea30c65"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"

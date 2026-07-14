@@ -1,16 +1,24 @@
+# Pastas Locais do Cliente (Ignorar sempre)
 /world/
 /logs/
 /screenshots/
 /crash-reports/
+
+# Regras Globais de Arquivos
 *.jar
+
+# EXCEÇÕES (O que o Git DEVE rastrear obrigatoriamente)
+# Permite o bootstrap do packwiz
 !packwiz-installer-bootstrap.jar
-!/config/*
-!/config/defaultoptions/
-!/config/defaultoptions/defaultoptions.txt
-!/config/packicon.png
-!/config/client.json
-!/config/common.json
-!/config/web_server.json
-!/config/ftbquests/
+
+# Libera a pasta config e subpastas para o FTB Quests funcionar no VS Code
+!/config/
+!/config/**
+
+# Libera a pasta KubeJS inteira para rastrear scripts, texturas e os JSONs de tradução
+!/kubejs/
+!/kubejs/**
+
+# Trancas específicas dentro do KubeJS (Não enviar pro GitHub de jeito nenhum)
 kubejs/exported/**
 kubejs/probe/**
