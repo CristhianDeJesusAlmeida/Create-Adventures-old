@@ -1,7 +1,7 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/ftbquest/chapters/capitulo_1.snbt"
+file = "config/ftbquests/chapters/capitulo_1.snbt"
 hash = "bb80773a5e3f26943a6e1b43225610fba53b97a024d71e1a4061e84e3a440385"
 
 [[files]]
