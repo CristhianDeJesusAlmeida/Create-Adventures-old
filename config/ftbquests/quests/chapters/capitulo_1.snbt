@@ -63,7 +63,7 @@
 		}
 		{
 			title: "A Era do Carvão e do Aço (Immersive Engineering)"
-			icon: { id: "immersiveengineering:connector" }
+			icon: { id: "immersiveengineering:connector_hv" }
 			id: "1000000000000005"
 			x: -2.0d
 			y: 3.0d
@@ -76,7 +76,7 @@
 		}
 		{
 			title: "Magia de Linha de Frente (Iron's Spells)"
-			icon: { id: "irons_spells:scroll" }
+			icon: { id: "irons_spellbooks:common_ink" }
 			id: "1000000000000006"
 			x: 2.0d
 			y: 3.0d
@@ -89,7 +89,7 @@
 		}
 		{
 			title: "Alta Voltagem Dinâmica (Electrodynamics)"
-			icon: { id: "electrodynamics:wireinsulatedcopper" }
+			icon: { id: "electrodynamics:wireinsulatedcopperblack" }
 			id: "1000000000000007"
 			x: -2.0d
 			y: 4.5d
@@ -114,7 +114,7 @@
 			}]
 		}
 		{
-			title: "Automação Futurista (Oritech & Actually Additions)"
+			title: "Automação Futurista (Oritech and Actually Additions)"
 			icon: { id: "oritech:machine_core_1" }
 			id: "1000000000000009"
 			x: -2.0d
@@ -128,7 +128,7 @@
 		}
 		{
 			title: "Níveis de Mundo e Relíquias (Apotheosis)"
-			icon: { id: "apotheosis:scrap_tome" }
+			icon: { id: "apothic_enchanting:scrap_tome" }
 			id: "1000000000000010"
 			x: 2.0d
 			y: 6.0d
@@ -154,7 +154,7 @@
 		}
 		{
 			title: "A Singularidade Atômica (Nuclear Science)"
-			icon: { id: "nuclearscience:uranium_ore" }
+			icon: { id: "nuclearscience:uranium235" }
 			id: "1000000000000012"
 			x: 2.0d
 			y: 7.5d
