@@ -629,6 +629,11 @@ hash = "42ba7699405972f0dcd35e3ec53601203225e17bf86c5d0541707a5899371d53"
 metafile = true
 
 [[files]]
+file = "mods/e4mc.pw.toml"
+hash = "947d0493c5a7039e4fa0a9318daa9dad36870f10d8764e9835783144a292a619"
+metafile = true
+
+[[files]]
 file = "mods/ec-ars-compat.pw.toml"
 hash = "c32f7ea017903787d7b82d732c3ee3a7f67eceeaa72d70827e0c297b3b8bdfc9"
 metafile = true
