@@ -99,11 +99,6 @@ hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
 
 [[files]]
-file = "mods/achievements-optimizer.pw.toml"
-hash = "e30ba5c8e77e4e5381e4deed8f047788d04c37af5671b7e691f530901890cdaf"
-metafile = true
-
-[[files]]
 file = "mods/actually-additions.pw.toml"
 hash = "3fd67e682e6c03107722cbe2cae5a0d55f742d9ee32df8471a1d47cbaac77b52"
 metafile = true
