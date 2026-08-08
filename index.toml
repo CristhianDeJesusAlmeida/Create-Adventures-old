@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/capitulo_1.snbt"
-hash = "dc1d3afaa64bb48e8a957a094a1895edf0837768f7c10feddbdf85af5e47b56d"
+hash = "e05fde67f11c8cd97af71a05753dbbfa1d4121fd6ee40d045cc798d92807ff99"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
