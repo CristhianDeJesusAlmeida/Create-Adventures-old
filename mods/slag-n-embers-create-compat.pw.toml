@@ -1,0 +1,13 @@
+name = "Slag n' Embers - Create Compat"
+filename = "Slag-n-Embers-Create-Compat-1.21.1-1.0a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cba0129ab994edaf0f07dc056987f58fc17025e1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7788455
+project-id = 1491474
