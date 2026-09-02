@@ -800,7 +800,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
+hash = "65ac18556f91ebb4f303a39731e93e94ffa94ddc690b0fbf35346bdcb3b05919"
 metafile = true
 
 [[files]]
@@ -896,6 +896,16 @@ metafile = true
 [[files]]
 file = "mods/jupiter.pw.toml"
 hash = "3f44721c554a06b9e922c6102bed6402fed57d6d340de0299ee4237544724c48"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-cookery.pw.toml"
+hash = "736320078bdd72041452e9bb1c6efd44859e46b0e5d862dbd814cf48ef5b92aa"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-immersive-eating.pw.toml"
+hash = "d6ac6d08c8e9b47ade49c7b0603692a370dfc4c5bf6572f6553574a26effdb64"
 metafile = true
 
 [[files]]
