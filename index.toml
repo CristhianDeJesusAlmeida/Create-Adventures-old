@@ -894,11 +894,6 @@ hash = "736320078bdd72041452e9bb1c6efd44859e46b0e5d862dbd814cf48ef5b92aa"
 metafile = true
 
 [[files]]
-file = "mods/kaleidoscope-immersive-eating.pw.toml"
-hash = "d6ac6d08c8e9b47ade49c7b0603692a370dfc4c5bf6572f6553574a26effdb64"
-metafile = true
-
-[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
