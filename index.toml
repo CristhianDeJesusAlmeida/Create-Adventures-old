@@ -9,6 +9,14 @@ file = "config/ftbquests/quests/chapters/Introducao.snbt"
 hash = "5819faba99a8d526dd4dd04d7b43c6790232a7cacee4a70e500bd71f31d9601b"
 
 [[files]]
+file = "config/global_packs/required_data/epicfight_compat/data/epicfight/capabilities/bossesrise.json"
+hash = "2b94060ca80d43f21238276206702bd22c84e4fb14b701f8ff62bf32c253cef4"
+
+[[files]]
+file = "config/global_packs/required_data/epicfight_compat/pack.mcmeta"
+hash = "d6e679b3e15c38d3b57862deee760d42ca68f0689201f579e4bd67a96dfee4da"
+
+[[files]]
 file = "datapacks/Bosses'sRise_fight.zip"
 hash = "7b211d0ec5a2393612c1f6840ef98bde1f450a4f54e122b801ac322bd1545f8c"
 

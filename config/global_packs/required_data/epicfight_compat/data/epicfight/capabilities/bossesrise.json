@@ -1,0 +1,10 @@
+{
+  "capabilities": {
+    "bossesrise:combat_roll": {
+      "type": "dodge",
+      "animations": {
+        "default": "epicfight:biped/dodge/roll"
+      }
+    }
+  }
+}
