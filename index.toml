@@ -18,8 +18,8 @@ hash = "b590c15795bc8f7fc91ce521b65175c19739d06d2196ee5e850262814748eecc"
 metafile = true
 
 [[files]]
-file = "global_packs/required_data/epicfight_compat/data/epicfight/capabilities/bossesrise.json"
-hash = "b720ef4122a2f52132935f86e42deb1015b9c67bdda5e257ff2a4560758f94f3"
+file = "global_packs/required_data/epicfight_compat/data/epicfight/animators/biped/player.json"
+hash = "086ca6cfbd79c597f6edc3aa6186c810fe0f8f456405ea163d9939b8ad810647"
 
 [[files]]
 file = "global_packs/required_data/epicfight_compat/pack.mcmeta"
