@@ -9,14 +9,6 @@ file = "config/ftbquests/quests/chapters/Introducao.snbt"
 hash = "5819faba99a8d526dd4dd04d7b43c6790232a7cacee4a70e500bd71f31d9601b"
 
 [[files]]
-file = "config/global_packs/required_data/epicfight_compat/data/epicfight/capabilities/bossesrise.json"
-hash = "b720ef4122a2f52132935f86e42deb1015b9c67bdda5e257ff2a4560758f94f3"
-
-[[files]]
-file = "config/global_packs/required_data/epicfight_compat/pack.mcmeta"
-hash = "d6e679b3e15c38d3b57862deee760d42ca68f0689201f579e4bd67a96dfee4da"
-
-[[files]]
 file = "datapacks/Bosses'sRise_fight.zip"
 hash = "7b211d0ec5a2393612c1f6840ef98bde1f450a4f54e122b801ac322bd1545f8c"
 
@@ -24,6 +16,14 @@ hash = "7b211d0ec5a2393612c1f6840ef98bde1f450a4f54e122b801ac322bd1545f8c"
 file = "datapacks/compat-bosses-epicfight.pw.toml"
 hash = "b590c15795bc8f7fc91ce521b65175c19739d06d2196ee5e850262814748eecc"
 metafile = true
+
+[[files]]
+file = "global_packs/required_data/epicfight_compat/data/epicfight/capabilities/bossesrise.json"
+hash = "b720ef4122a2f52132935f86e42deb1015b9c67bdda5e257ff2a4560758f94f3"
+
+[[files]]
+file = "global_packs/required_data/epicfight_compat/pack.mcmeta"
+hash = "d6e679b3e15c38d3b57862deee760d42ca68f0689201f579e4bd67a96dfee4da"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
