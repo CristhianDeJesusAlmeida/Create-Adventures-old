@@ -10,7 +10,7 @@ hash = "5819faba99a8d526dd4dd04d7b43c6790232a7cacee4a70e500bd71f31d9601b"
 
 [[files]]
 file = "config/global_packs/required_data/epicfight_compat/data/epicfight/capabilities/bossesrise.json"
-hash = "2b94060ca80d43f21238276206702bd22c84e4fb14b701f8ff62bf32c253cef4"
+hash = "b720ef4122a2f52132935f86e42deb1015b9c67bdda5e257ff2a4560758f94f3"
 
 [[files]]
 file = "config/global_packs/required_data/epicfight_compat/pack.mcmeta"
