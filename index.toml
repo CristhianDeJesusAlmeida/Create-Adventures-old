@@ -19,7 +19,7 @@ metafile = true
 
 [[files]]
 file = "global_packs/required_data/epicfight_compat/data/epicfight/animators/biped/player.json"
-hash = "086ca6cfbd79c597f6edc3aa6186c810fe0f8f456405ea163d9939b8ad810647"
+hash = "d85d0e8fcf762ca8baf7c35d38c23e0bcb0256c714b55e96cd2b9de845fb3e70"
 
 [[files]]
 file = "global_packs/required_data/epicfight_compat/pack.mcmeta"
