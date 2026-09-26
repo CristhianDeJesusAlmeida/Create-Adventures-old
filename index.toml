@@ -478,6 +478,11 @@ hash = "2ea431a8a539cf776e004d5f55260cbf60fa5d8e1f0a7f3059298bf59510e1c4"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-lift-patch.pw.toml"
+hash = "434d92388783bd89bfad57891f43b7bab9b9c3b16800fd1d8de5f76049a2f304"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-x-curios-api-compat.pw.toml"
 hash = "8c8f015bcce51748c7d9b8c9e0a8b6cbe2a55c5afc5279d64d25930bb5b11269"
 metafile = true
@@ -990,11 +995,6 @@ metafile = true
 [[files]]
 file = "mods/neo-origins.pw.toml"
 hash = "79482771acb117d034118584d8931d750e67d8b1d9cefe8278759ef24a5522f6"
-metafile = true
-
-[[files]]
-file = "mods/northstar-sable-iris-horizons-bridge.pw.toml"
-hash = "f600eca46a18fdd7ac520a60b7a0a92029e0d4c1374aba42b28dfc8ca4626ac8"
 metafile = true
 
 [[files]]
