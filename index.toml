@@ -343,16 +343,6 @@ hash = "ead3aff0899e5bc61eb22fe0af86722b430f9e92990b3cd2720d5c2c1f66d023"
 metafile = true
 
 [[files]]
-file = "mods/bobby-reneoforged.pw.toml"
-hash = "5be371e4ac8c4543824badc197937d8c04e15d2e1ef609875d7b3f63eed81aeb"
-metafile = true
-
-[[files]]
-file = "mods/bobby-sync.pw.toml"
-hash = "2e0e1c267ea833c86365e6a0c1e93d734391be27cfe3be624a4ad0dde4c88e72"
-metafile = true
-
-[[files]]
 file = "mods/bossesrise.pw.toml"
 hash = "41679608577cd9aadf512999bdeb4690bce62393bdab682ec9c5cc306650c947"
 metafile = true
@@ -630,6 +620,16 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
+file = "mods/distant-horizons-seedgen.pw.toml"
+hash = "781692b83a229ad34b5c5d1c99b9da7fe3351148be29b83cff544bc7a776b6bd"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "6d3e312dbf8db12dd1b6fb3bd1d29f210ab48024a0b2ebdf02fd32c265955c5d"
 metafile = true
 
 [[files]]
@@ -993,6 +993,11 @@ hash = "79482771acb117d034118584d8931d750e67d8b1d9cefe8278759ef24a5522f6"
 metafile = true
 
 [[files]]
+file = "mods/northstar-sable-iris-horizons-bridge.pw.toml"
+hash = "f600eca46a18fdd7ac520a60b7a0a92029e0d4c1374aba42b28dfc8ca4626ac8"
+metafile = true
+
+[[files]]
 file = "mods/notick.pw.toml"
 hash = "15e661201ed74910c9b9d5e22025da4c4748974484e291b0ce6a807a4be60eb2"
 metafile = true
@@ -1175,6 +1180,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
+metafile = true
+
+[[files]]
+file = "mods/ssrd.pw.toml"
+hash = "4a4c0c54b3b38ac660b9c06d8dc8e51ed3e2efc6dd94ad3e807a48146a420873"
 metafile = true
 
 [[files]]
