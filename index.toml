@@ -973,6 +973,11 @@ hash = "a271fc14aa67bc08206873e51e1aa07bf1f3b9de5b7f9b49773e0ff8ff9a584e"
 metafile = true
 
 [[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "efad386063cb79013d7522fcc5b5879c5c3cd556e83bd41a56980632827b45b2"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "c84140c66f233909b392bd7253ca33c59903ffda51beff558d9a2a4a8c6bc269"
 metafile = true
@@ -985,6 +990,11 @@ metafile = true
 [[files]]
 file = "mods/moonlight.pw.toml"
 hash = "7bdc8798ec7043f448b94683798acc93560e21b34677a39631af8120371192eb"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
 
 [[files]]
