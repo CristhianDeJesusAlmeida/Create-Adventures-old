@@ -148,7 +148,18 @@ ServerEvents.recipes(event => {
     // =========================================================================
     
     // Create Pressing (Mantido fora da array por usar sintaxe de máquina do Create)
-    event.recipes.create.pressing('kubejs:cataclysmic_mechanism', 'create:iron_sheet');
+    event.custom({
+        type: "ae2:inscriber",
+        mode: "inscribe",
+        ingredients: {
+            top: { item: "ae2:engineering_processor_press" },       
+            middle: { item: "create:iron_sheet" }
+        },
+        result: { 
+            id: "kubejs:cataclysmic_mechanism",
+            count: 1 
+        }                 
+    });
 
     // AE2 Inscriber (Mantido fora por usar o event.custom nativo que você validou)
     event.custom({
