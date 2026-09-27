@@ -1273,6 +1273,11 @@ hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
 metafile = true
 
 [[files]]
+file = "mods/universal-sawmill.pw.toml"
+hash = "1fcfa3a7239f5219c405f946e2dc8ac24d43f595f700a71248dbc2662505ba85"
+metafile = true
+
+[[files]]
 file = "mods/voltaic.pw.toml"
 hash = "27645fd773dff44b90c84a80f1ebd1878a889a1f04fcb777aacca626ec30727c"
 metafile = true
