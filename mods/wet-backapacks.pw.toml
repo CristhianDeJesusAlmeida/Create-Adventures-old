@@ -1,0 +1,13 @@
+name = "Wet Backapacks"
+filename = "wetbackpacks.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lgqEhwGc/versions/BKMRfQ4P/wetbackpacks.jar"
+hash-format = "sha512"
+hash = "01be404175a49984fe44cf61714725328641369d2eaea3c708da917a4fff097a63a1ab7423dcac18692c3d001a6a380e27d401d819b4e1f548fbfbd233afcee8"
+
+[update]
+[update.modrinth]
+mod-id = "lgqEhwGc"
+version = "BKMRfQ4P"
