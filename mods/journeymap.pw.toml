@@ -1,13 +1,13 @@
 name = "JourneyMap"
-filename = "journeymap-neoforge-1.21.1-6.0.8.jar"
+filename = "journeymap-neoforge-1.21.1-6.0.9.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/lfHFW1mp/versions/F1lEUGxf/journeymap-neoforge-1.21.1-6.0.8.jar"
+url = "https://cdn.modrinth.com/data/lfHFW1mp/versions/CtFE7hwT/journeymap-neoforge-1.21.1-6.0.9.jar"
 hash-format = "sha512"
-hash = "0085d74664f65e7d62124ce1526c8e1dbe59f0d195a7dda6da55a488af249c8c708ab8bb76aa824a7d6b84865b4b2e08f09b105a0d50f7d522119834508b9f59"
+hash = "8900ee4cdb7d1ffb6559decdeec84ad479d04b2e7b01a60be9f6e328809af2bfd7a80077b7da0e49bc96261fe8fe274ba33c62f6c9f65302c783ed823c4ff746"
 
 [update]
 [update.modrinth]
 mod-id = "lfHFW1mp"
-version = "F1lEUGxf"
+version = "CtFE7hwT"

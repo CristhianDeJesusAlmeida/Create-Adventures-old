@@ -1,13 +1,13 @@
 name = "SL Library"
-filename = "SL-Library-1.6.1-1.21.1+[NeoForge].jar"
+filename = "SL-Library-1.6.3-1.21.1+[NeoForge].jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e96b5c2cc0f1f63cbde4297080923292f443b16f"
+hash = "a9e830c6105b5017eb558c6cdb28f185906d0826"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8687688
+file-id = 8959165
 project-id = 1497274
