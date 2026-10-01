@@ -1,0 +1,13 @@
+name = "Create: Perfect Processing"
+filename = "perfectprocessing-1.7.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Rr1NLgMX/versions/lQ4DI5hV/perfectprocessing-1.7.0.jar"
+hash-format = "sha512"
+hash = "38b306298700e173e7d11ec7276f3286c857d28f4ff8956a4612813dbe9c02d18b540cf10b4a3080a9f5d5fffc5767ad5bea3b5f1f1831174e7a61ae7519cc43"
+
+[update]
+[update.modrinth]
+mod-id = "Rr1NLgMX"
+version = "lQ4DI5hV"
